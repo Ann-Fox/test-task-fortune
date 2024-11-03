@@ -1,0 +1,2847 @@
+.solar-icon[data-v-3112d719] {
+    display: inline-flex;
+    width: var(--icon-size);
+    height: var(--icon-size)
+}
+
+.tm-primary[data-v-c31801e7],.tm-primary.is-default[data-v-c31801e7] {
+    --bg: var(--solar-button-primary-default-bg);
+    --fg: var(--solar-button-primary-default-fg)
+}
+
+.tm-primary[data-v-c31801e7]:hover,.tm-primary.is-hover[data-v-c31801e7] {
+    --bg: var(--solar-button-primary-hover-bg)
+}
+
+.tm-primary[data-v-c31801e7]:focus,.tm-primary.is-focus[data-v-c31801e7] {
+    --bg: var(--solar-button-primary-focus-bg)
+}
+
+.tm-primary[data-v-c31801e7]:active,.tm-primary.is-active[data-v-c31801e7] {
+    --bg: var(--solar-button-primary-active-bg)
+}
+
+.tm-primary[data-v-c31801e7]:disabled,.tm-primary.is-disabled[data-v-c31801e7] {
+    --bg: var(--solar-button-primary-disabled-bg);
+    --fg: var(--solar-button-primary-disabled-fg)
+}
+
+/* .tm-primary.ghost[data-v-c31801e7],.tm-primary.ghost.is-default[data-v-c31801e7] {
+    --fg: var(--solar-button-ghost-primary-default-fg)
+}
+
+.tm-primary.ghost[data-v-c31801e7]:hover,.tm-primary.ghost.is-hover[data-v-c31801e7] {
+    --fg: var(--solar-button-ghost-primary-hover-fg)
+}
+
+.tm-primary.ghost[data-v-c31801e7]:focus,.tm-primary.ghost.is-focus[data-v-c31801e7] {
+    --fg: var(--solar-button-ghost-primary-focus-fg)
+}
+
+.tm-primary.ghost[data-v-c31801e7]:active,.tm-primary.ghost.is-active[data-v-c31801e7] {
+    --fg: var(--solar-button-ghost-primary-active-fg)
+}
+
+.tm-primary.ghost[data-v-c31801e7]:disabled,.tm-primary.ghost.is-disabled[data-v-c31801e7] {
+    --fg: var(--solar-button-ghost-primary-disabled-fg)
+} */
+
+.tm-primary.list[data-v-c31801e7],.tm-primary.list.is-default[data-v-c31801e7] {
+    --fg: var(--solar-button-list-primary-default-fg)
+}
+
+.tm-primary.list[data-v-c31801e7]:hover,.tm-primary.list.is-hover[data-v-c31801e7] {
+    --fg: var(--solar-button-list-primary-hover-fg)
+}
+
+.tm-primary.list[data-v-c31801e7]:focus,.tm-primary.list.is-focus[data-v-c31801e7] {
+    --fg: var(--solar-button-list-primary-focus-fg)
+}
+
+.tm-primary.list[data-v-c31801e7]:disabled,.tm-primary.list.is-disabled[data-v-c31801e7] {
+    --fg: var(--solar-button-list-primary-disabled-fg)
+}
+
+.tm-secondary[data-v-c31801e7],.tm-secondary.is-default[data-v-c31801e7] {
+    --bg: var(--solar-button-secondary-default-bg);
+    --fg: var(--solar-button-secondary-default-fg)
+}
+
+.tm-secondary[data-v-c31801e7]:hover,.tm-secondary.is-hover[data-v-c31801e7] {
+    --bg: var(--solar-button-secondary-hover-bg)
+}
+
+.tm-secondary[data-v-c31801e7]:focus,.tm-secondary.is-focus[data-v-c31801e7] {
+    --bg: var(--solar-button-secondary-focus-bg)
+}
+
+.tm-secondary[data-v-c31801e7]:active,.tm-secondary.is-active[data-v-c31801e7] {
+    --bg: var(--solar-button-secondary-active-bg)
+}
+
+.tm-secondary[data-v-c31801e7]:disabled,.tm-secondary.is-disabled[data-v-c31801e7] {
+    --bg: var(--solar-button-secondary-disabled-bg);
+    --fg: var(--solar-button-secondary-disabled-fg)
+}
+
+.tm-dark[data-v-c31801e7],.tm-dark.is-default[data-v-c31801e7] {
+    --bg: var(--solar-button-dark-default-bg);
+    --fg: var(--solar-button-dark-default-fg)
+}
+
+.tm-dark[data-v-c31801e7]:hover,.tm-dark.is-hover[data-v-c31801e7] {
+    --bg: var(--solar-button-dark-hover-bg);
+    --fg: var(--solar-button-dark-hover-fg)
+}
+
+.tm-dark[data-v-c31801e7]:focus,.tm-dark.is-focus[data-v-c31801e7] {
+    --bg: var(--solar-button-dark-focus-bg);
+    --fg: var(--solar-button-dark-focus-fg)
+}
+
+.tm-dark[data-v-c31801e7]:active,.tm-dark.is-active[data-v-c31801e7] {
+    --bg: var(--solar-button-dark-active-bg);
+    --fg: var(--solar-button-dark-active-fg)
+}
+
+.tm-dark[data-v-c31801e7]:disabled,.tm-dark.is-disabled[data-v-c31801e7] {
+    --bg: var(--solar-button-dark-disabled-bg);
+    --fg: var(--solar-button-dark-disabled-fg)
+}
+
+.tm-dark.ghost[data-v-c31801e7],.tm-dark.ghost.is-default[data-v-c31801e7] {
+    --fg: var(--solar-button-ghost-dark-default-fg)
+}
+
+.tm-dark.ghost[data-v-c31801e7]:hover,.tm-dark.ghost.is-hover[data-v-c31801e7] {
+    --fg: var(--solar-button-ghost-dark-hover-fg)
+}
+
+.tm-dark.ghost[data-v-c31801e7]:focus,.tm-dark.ghost.is-focus[data-v-c31801e7] {
+    --fg: var(--solar-button-ghost-dark-focus-fg)
+}
+
+.tm-dark.ghost[data-v-c31801e7]:active,.tm-dark.ghost.is-active[data-v-c31801e7] {
+    --fg: var(--solar-button-ghost-dark-active-fg)
+}
+
+.tm-dark.ghost[data-v-c31801e7]:disabled,.tm-dark.ghost.is-disabled[data-v-c31801e7] {
+    --fg: var(--solar-button-ghost-dark-disabled-fg)
+}
+
+.tm-dark.list[data-v-c31801e7],.tm-dark.list.is-default[data-v-c31801e7] {
+    --fg: var(--solar-button-list-dark-default-fg)
+}
+
+.tm-dark.list[data-v-c31801e7]:hover,.tm-dark.list.is-hover[data-v-c31801e7] {
+    --fg: var(--solar-button-list-dark-hover-fg)
+}
+
+.tm-dark.list[data-v-c31801e7]:focus,.tm-dark.list.is-focus[data-v-c31801e7] {
+    --fg: var(--solar-button-list-dark-focus-fg)
+}
+
+.tm-dark.list[data-v-c31801e7]:disabled,.tm-dark.list.is-disabled[data-v-c31801e7] {
+    --fg: var(--solar-button-list-dark-disabled-fg)
+}
+
+.solar-button[data-v-c31801e7] {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: var(--solar-border-radius-50);
+    color: var(--fg);
+    background: var(--bg);
+    padding: 0 var(--solar-spacing-100);
+    height: 32px;
+    border-style: none;
+    border-width: 1px;
+    fill: var(--fg);
+    text-decoration: none;
+    white-space: nowrap;
+    position: relative;
+    --gap: var(--solar-spacing-25)
+}
+
+.solar-button[data-v-c31801e7]:not(.show-skeleton):after {
+    display: none
+}
+
+.solar-button-logo[data-v-c31801e7] {
+    height: 100%
+}
+
+.solar-button.is-block[data-v-c31801e7] {
+    width: 100%;
+    display: flex
+}
+
+.solar-button[data-v-c31801e7]:hover {
+    cursor: pointer
+}
+
+.solar-button[data-v-c31801e7]:disabled,.solar-button.is-disabled[data-v-c31801e7],.solar-button.is-loading[data-v-c31801e7] {
+    pointer-events: none
+}
+
+.solar-button:disabled .solar-image[data-v-c31801e7],.solar-button.is-disabled .solar-image[data-v-c31801e7],.solar-button.is-loading .solar-image[data-v-c31801e7] {
+    opacity: .25
+}
+
+.solar-button.ghost[data-v-c31801e7] {
+    border: 1px solid var(--fg);
+    background: transparent
+}
+
+.solar-button.rounded[data-v-c31801e7] {
+    border-radius: var(--solar-border-radius-200);
+    background: var(--solar-color-background1-action-quinary-enabled);
+    color: var(--solar-color-text1-action-secondary-enabled);
+    fill: var(--solar-color-icon-secondary);
+    padding: var(--solar-spacing-25)
+}
+
+.solar-button.rounded .label-wrapper[data-v-c31801e7] {
+    padding: 0 var(--solar-spacing-25) 0 0
+}
+
+.solar-button.rounded.only-icon[data-v-c31801e7] {
+    height: var(--solar-spacing-200);
+    width: var(--solar-spacing-200)
+}
+
+.solar-button.rounded.only-icon .label-wrapper[data-v-c31801e7] {
+    padding: 0
+}
+
+.solar-button.rounded.is-disabled[data-v-c31801e7] {
+    background: var(--solar-color-background1-action-quinary-enabled);
+    color: var(--solar-color-icon-tertiary);
+    fill: var(--solar-color-icon-tertiary)
+}
+
+.solar-button.rounded[data-v-c31801e7]:focus {
+    background: var(--solar-color-background1-action-quinary-enabled)
+}
+
+.solar-button.rounded[data-v-c31801e7]:hover,.solar-button.rounded[data-v-c31801e7]:active {
+    background: var(--solar-color-background1-action-quinary-hover)
+}
+
+.solar-button.list[data-v-c31801e7] {
+    border-radius: 0;
+    background: transparent;
+    height: 24px;
+    padding: 0;
+    --gap: var(--solar-spacing-50)
+}
+
+.solar-button.list.large-pad[data-v-c31801e7] {
+    padding: 0 var(--solar-spacing-100);
+    background: var(--solar-color-background1-action-primary-enabled);
+    height: 40px
+}
+
+.solar-button.list.large-pad[data-v-c31801e7]:hover {
+    background: var(--solar-color-background1-action-primary-hover)
+}
+
+.solar-button.list.large-pad[data-v-c31801e7]:focus {
+    background: var(--solar-color-background1-action-primary-focused)
+}
+
+.solar-button.list.large-pad[data-v-c31801e7]:active {
+    background: var(--solar-color-background1-action-primary-active)
+}
+
+.solar-button.list.large-pad.is-selected[data-v-c31801e7] {
+    color: var(--fg);
+    background: var(--solar-color-background1-action-primary-selected);
+    pointer-events: none
+}
+
+@media (min-width: 970px) {
+    .solar-button.is-medium[data-v-c31801e7] {
+        height:36px
+    }
+
+    .solar-button.is-large[data-v-c31801e7] {
+        height: 40px
+    }
+
+    .solar-button.list[data-v-c31801e7] {
+        height: 32px
+    }
+
+    .solar-button.list.large-pad[data-v-c31801e7] {
+        height: 48px
+    }
+}
+
+.solar-button.fit-height[data-v-c31801e7] {
+    height: fit-content
+}
+
+.label-wrapper[data-v-c31801e7],.content-wrapper[data-v-c31801e7] {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap)
+}
+
+.content-wrapper[data-v-c31801e7] {
+    width: 100%
+}
+
+.list>.content-wrapper[data-v-c31801e7] {
+    justify-content: flex-end
+}
+
+.only-icon>.content-wrapper[data-v-c31801e7] {
+    justify-content: center
+}
+
+.is-loading>.content-wrapper[data-v-c31801e7] {
+    opacity: 0
+}
+
+.label-wrapper[data-v-c31801e7] {
+    justify-content: center
+}
+
+.list:not(.only-icon) .label-wrapper[data-v-c31801e7] {
+    margin-right: auto
+}
+
+.solar-headline a[data-v-24a72c9a] {
+    border-bottom: none
+}
+
+.solar-headline .img-container[data-v-24a72c9a] {
+    display: flex
+}
+
+.solar-headline .avatar-container figure[data-v-24a72c9a] {
+    margin: 0 var(--solar-spacing-100) 0 0
+}
+
+.solar-headline .list-title[data-v-24a72c9a] {
+    color: var(--solar-color-text-tertiary);
+    margin: 0
+}
+
+.solar-headline img[data-v-24a72c9a] {
+    border-radius: var(--solar-border-radius-25);
+    width: 100%;
+    margin-bottom: var(--solar-spacing-50)
+}
+
+.solar-headline .title[data-v-24a72c9a] {
+    margin: 0 0 var(--solar-spacing-50) 0
+}
+
+.solar-headline .title[data-v-24a72c9a]:not(h1,.list-title-author) {
+    color: var(--solar-color-text1-action-secondary-enabled)
+}
+
+.solar-headline .title.list-title-author[data-v-24a72c9a] {
+    color: var(--solar-color-text-secondary)
+}
+
+.solar-headline .list-title-author[data-v-24a72c9a] {
+    padding-top: 0
+}
+
+.solar-headline-heading .title-content[data-v-24a72c9a] {
+    padding-top: var(--solar-spacing-50)
+}
+
+.solar-headline-heading .title-content .title[data-v-24a72c9a] {
+    margin: 0
+}
+
+.solar-headline:hover .img-container[data-v-24a72c9a],.solar-headline:hover .avatar-container[data-v-24a72c9a],.solar-headline:hover .small[data-v-24a72c9a],.solar-headline:hover .title-content-author[data-v-24a72c9a],.solar-headline:focus .img-container[data-v-24a72c9a],.solar-headline:focus .avatar-container[data-v-24a72c9a],.solar-headline:focus .small[data-v-24a72c9a],.solar-headline:focus .title-content-author[data-v-24a72c9a] {
+    opacity: .7
+}
+
+.solar-headline:hover .title[data-v-24a72c9a]:not(.small,.list-title-author,h1) {
+    color: var(--solar-color-text1-action-secondary-hover)
+}
+
+.solar-headline-column .title-content[data-v-24a72c9a] {
+    padding-top: var(--solar-spacing-50)
+}
+
+.solar-headline-column .title-content.no-top-padding[data-v-24a72c9a] {
+    padding-top: 0
+}
+
+.solar-headline.type-list[data-v-24a72c9a] {
+    width: auto;
+    display: flex;
+    text-align: left;
+    align-items: center
+}
+
+@media (min-width: 970px) {
+    .solar-headline.type-list.variant-author[data-v-24a72c9a] {
+        align-items:flex-start
+    }
+}
+
+.solar-headline.type-list .img-container[data-v-24a72c9a] {
+    margin-right: var(--solar-spacing-150)
+}
+
+.solar-headline.type-list .img-container img[data-v-24a72c9a] {
+    width: 197px;
+    object-fit: cover;
+    margin: 0
+}
+
+.solar-headline.type-list .img-container .small[data-v-24a72c9a] {
+    width: 88px;
+    height: 88px;
+    object-fit: cover;
+    margin: 0
+}
+
+.solar-headline.type-list .title-content-author[data-v-24a72c9a],.solar-headline.type-list .title-content-author .title[data-v-24a72c9a] {
+    margin: 0
+}
+
+@media (max-width: 969px) {
+    .solar-headline.type-list .img-container[data-v-24a72c9a] {
+        margin-right:var(--solar-spacing-100)
+    }
+
+    .solar-headline.type-list .img-container img[data-v-24a72c9a] {
+        width: 120px;
+        height: 120px
+    }
+
+    .solar-headline.type-list .img-container .small[data-v-24a72c9a] {
+        width: 72px;
+        height: 72px
+    }
+}
+
+.solar-headline.type-totem[data-v-24a72c9a] {
+    max-width: 164px;
+    background: var(--solar-color-background-secondary);
+    border-radius: var(--solar-border-radius-25)
+}
+
+.solar-headline.type-totem .img-container img[data-v-24a72c9a] {
+    margin-bottom: 0
+}
+
+.solar-headline.type-totem .content[data-v-24a72c9a] {
+    padding-top: var(--solar-spacing-50);
+    padding-left: var(--solar-spacing-50);
+    padding-right: var(--solar-spacing-50);
+    padding-bottom: var(--solar-spacing-50)
+}
+
+.solar-headline.type-totem .content .title-content[data-v-24a72c9a] {
+    padding-top: var(--solar-spacing-25)
+}
+
+@media (min-width: 970px) {
+    .solar-headline.type-totem[data-v-24a72c9a] {
+        max-width:197px
+    }
+
+    .solar-headline.type-totem .content[data-v-24a72c9a] {
+        padding-top: var(--solar-spacing-100);
+        padding-left: var(--solar-spacing-75);
+        padding-right: var(--solar-spacing-75)
+    }
+
+    .solar-headline.type-totem .content .title-content[data-v-24a72c9a] {
+        padding-top: var(--solar-spacing-50)
+    }
+}
+
+.solar-headline .list-author-container[data-v-24a72c9a] {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: var(--solar-spacing-25)
+}
+
+.solar-date[data-v-5ee44dd4] {
+    display: flex;
+    margin: 0;
+    color: var(--solar-color-text-secondary)
+}
+
+.icon[data-v-5ee44dd4] {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: var(--solar-spacing-50);
+    fill: var(--solar-color-icon-tertiary)
+}
+
+.label[data-v-5ee44dd4] {
+    display: flex;
+    align-items: center;
+    color: var(--solar-color-text-secondary);
+    white-space: nowrap;
+    margin-left: auto;
+    margin-right: 4px
+}
+
+.date[data-v-5ee44dd4] {
+    display: flex;
+    order: 0;
+    text-align: right;
+    white-space: nowrap
+}
+
+.solar-ads[data-v-5f58468e] {
+    position: relative
+}
+
+.solar-ads .label[data-v-5f58468e] {
+    color: var(--solar-color-neutral-600)
+}
+
+.solar-ads.main.size-default[data-v-5f58468e] {
+    width: 100%
+}
+
+.solar-ads.main.has-bg[data-v-5f58468e] {
+    background-color: var(--solar-color-background-secondary)
+}
+
+.solar-ads.main .label[data-v-5f58468e] {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    line-height: 23px
+}
+
+.solar-ads.main .ads-content[data-v-5f58468e] {
+    min-height: var(--ads-height, auto);
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.solar-ads.main .ads-content.no-center[data-v-5f58468e] {
+    justify-content: initial
+}
+
+.solar-ads.main .ads-content>div[data-v-5f58468e] {
+    display: contents
+}
+
+.solar-ads.seal[data-v-5f58468e] {
+    width: 100%;
+    height: auto
+}
+
+.solar-ads.seal .label[data-v-5f58468e] {
+    margin-bottom: var(--solar-spacing-50)
+}
+
+.solar-ads.bar[data-v-5f58468e] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 56px;
+    background-color: var(--solar-color-neutral-50)
+}
+
+.solar-ads.bar .ads-content[data-v-5f58468e] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    max-height: 40px
+}
+
+
+.solar-badge[data-v-be57f0b5] {
+    background-color: var(--solar-color-background-tertiary);
+    color: var(--solar-color-text-quartenary);
+    border-radius: var(--solar-border-radius-5);
+    padding: 0 var(--solar-spacing-50);
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--solar-spacing-50)
+}
+
+.solar-badge-wrapper[data-v-be57f0b5] {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--solar-spacing-50)
+}
+
+.solar-badge--content[data-v-be57f0b5] {
+    width: fit-content;
+    gap: var(--solar-spacing-100)
+}
+
+.solar-badge--container[data-v-be57f0b5] {
+    width: 100%;
+    justify-content: center
+}
+
+.solar-badge.is-medium[data-v-be57f0b5],.solar-badge.mobile[data-v-be57f0b5] {
+    height: 20px
+}
+
+.solar-badge.neutral[data-v-be57f0b5] {
+    background-color: var(--solar-color-background-quinary);
+    text-transform: uppercase
+}
+
+.solar-badge-subscribed[data-v-be57f0b5] {
+    background: var(--solar-color-background-subscribed);
+    color: var(--solar-color-text-primary);
+    fill: var(--solar-color-icon-quartenary);
+    height: 48px;
+    padding: 0 var(--solar-spacing-50) 0 var(--solar-spacing-100);
+    justify-content: space-between
+}
+
+.solar-badge-subscribed-large .solar-button[data-v-be57f0b5] {
+    min-width: unset;
+    background-color: var(--solar-color-background2-action-secondary-enabled);
+    color: var(--solar-color-text3-action-secondary-enabled)
+}
+
+.solar-badge-subscribed-medium[data-v-be57f0b5] {
+    justify-content: start;
+    height: 32px;
+    padding-left: var(--solar-spacing-50)
+}
+
+.solar-badge-subscribed-medium .solar-button[data-v-be57f0b5] {
+    min-width: unset;
+    color: var(--solar-color-text1-action-secondary-enabled)
+}
+
+.solar-badge-subscribed-small[data-v-be57f0b5] {
+    justify-content: center;
+    height: 24px;
+    padding-left: var(--solar-spacing-50);
+    padding-right: var(--solar-spacing-50)
+}
+
+.solar-badge-subscribed-xsmall[data-v-be57f0b5] {
+    justify-content: center;
+    padding: 2px;
+    height: 16px
+}
+
+.solar-badge-subscribed-prime[data-v-be57f0b5] {
+    justify-content: center;
+    padding: 2px;
+    height: 24px;
+    background: none;
+    color: var(--solar-color-text-action-quinary-enabled)
+}
+
+.solar-badge-subscribed-prime .solar-icon[data-v-be57f0b5] {
+    padding: 2px;
+    background: var(--solar-color-background-subscribed);
+    border-radius: var(--solar-border-radius-5);
+    gap: var(--solar-spacing-50)
+}
+
+.solar-badge-clean[data-v-be57f0b5] {
+    background: none;
+    color: var(--solar-color-text-primary);
+    fill: var(--solar-color-icon-primary);
+    padding: 0;
+    justify-content: space-between
+}
+
+.solar-image[data-v-43d13567] {
+    display: inline-flex
+}
+
+.solar-image.width-based[data-v-43d13567] {
+    width: var(--w);
+    height: auto
+}
+
+.solar-image.height-based[data-v-43d13567] {
+    height: var(--h);
+    width: auto
+}
+
+.solar-image[data-v-43d13567]>svg {
+    width: inherit;
+    height: inherit;
+    fill: var(--color)
+}
+
+.solar-avatar[data-v-e7264e34] {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--avatar-background);
+    margin: 0;
+    --avatar-size-width: 40px;
+    --avatar-size-height: 40px;
+    --avatar-border-radius: var(--solar-border-radius-75)
+}
+
+.solar-avatar .initial[data-v-e7264e34] {
+    text-transform: uppercase;
+    color: var(--solar-color-text-quartenary)
+}
+
+.solar-avatar-notification[data-v-e7264e34] {
+    position: absolute;
+    top: 0;
+    right: calc(var(--solar-spacing-50) * -1)
+}
+
+.solar-avatar-notification.is-small[data-v-e7264e34] {
+    right: calc(var(--solar-spacing-5) * -1)
+}
+
+.solar-avatar[data-v-e7264e34],.solar-avatar-image[data-v-e7264e34] {
+    width: var(--avatar-size-width);
+    height: var(--avatar-size-height);
+    border-radius: var(--avatar-border-radius);
+    object-fit: cover
+}
+
+@media (min-width: 970px) {
+    .solar-avatar[data-v-e7264e34] {
+        --avatar-size-width: 56px;
+        --avatar-size-height: 56px;
+        --avatar-border-radius: var(--solar-border-radius-100)
+    }
+}
+
+.solar-avatar.is-extra-large[data-v-e7264e34] {
+    --avatar-size-width: 70px;
+    --avatar-size-height: 80px;
+    --avatar-border-radius: var(--solar-border-radius-150)
+}
+
+.solar-avatar.is-large[data-v-e7264e34] {
+    --avatar-size-width: 56px;
+    --avatar-size-height: 56px;
+    --avatar-border-radius: var(--solar-border-radius-100)
+}
+
+@media (min-width: 970px) {
+    .solar-avatar.is-large[data-v-e7264e34] {
+        --avatar-size-width: 72px;
+        --avatar-size-height: 72px;
+        --avatar-border-radius: var(--solar-border-radius-150)
+    }
+}
+
+.solar-avatar.is-medium[data-v-e7264e34] {
+    --avatar-size-width: 40px;
+    --avatar-size-height: 40px;
+    --avatar-border-radius: var(--solar-border-radius-75)
+}
+
+@media (min-width: 970px) {
+    .solar-avatar.is-medium[data-v-e7264e34] {
+        --avatar-size-width: 56px;
+        --avatar-size-height: 56px;
+        --avatar-border-radius: var(--solar-border-radius-100)
+    }
+}
+
+.solar-avatar.is-small[data-v-e7264e34] {
+    --avatar-size-width: 32px;
+    --avatar-size-height: 32px;
+    --avatar-border-radius: var(--solar-border-radius-75)
+}
+
+@media (min-width: 970px) {
+    .solar-avatar.is-small[data-v-e7264e34] {
+        --avatar-size-width: 40px;
+        --avatar-size-height: 40px
+    }
+}
+
+.solar-avatar.variant-initial[data-v-e7264e34] {
+    --avatar-background: var(--solar-color-background-quartenary)
+}
+
+.solar-avatar.variant-icon[data-v-e7264e34] {
+    --avatar-background: var(--solar-color-background-secondary)
+}
+
+.solar-notification[data-v-07f65f75] {
+    box-sizing: border-box;
+    color: var(--solar-color-text-quartenary);
+    background-color: var(--solar-color-background-tertiary);
+    border-radius: var(--solar-border-radius-75);
+    min-width: var(--notification-size);
+    height: var(--notification-size);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    user-select: none
+}
+
+.solar-notification.negative[data-v-07f65f75] {
+    color: var(--solar-color-text-tertiary);
+    background-color: var(--solar-color-background-primary)
+}
+
+.is-large[data-v-07f65f75] {
+    --notification-size: 24px;
+    padding: var(--solar-spacing-25)
+}
+
+.is-medium[data-v-07f65f75] {
+    --notification-size: 20px;
+    padding: var(--solar-spacing-5) var(--solar-spacing-25)
+}
+
+/* .is-small[data-v-07f65f75] {
+    --notification-size: 8px;
+    text-indent: -9999px
+} */
+
+
+.solar-title[data-v-5d24cf9f] {
+    width: 100%;
+    padding-top: var(--solar-spacing-50);
+    border-top: 2px solid var(--title-border-color);
+    color: var(--solar-color-text-primary)
+}
+
+.solar-title .heading-3[data-v-5d24cf9f],.solar-title .heading-4[data-v-5d24cf9f] {
+    flex: 0;
+    white-space: nowrap;
+    margin: 0
+}
+
+.solar-title .heading-3[data-v-5d24cf9f] {
+    white-space: normal
+}
+
+.solar-title.is-page[data-v-5d24cf9f] {
+    --title-border-color: var(--solar-color-stroke-divider-primary)
+}
+
+.solar-title.is-body[data-v-5d24cf9f],.solar-title.is-page-header[data-v-5d24cf9f] {
+    --title-border-color: var(--solar-color-stroke-divider-secondary)
+}
+
+.solar-title.is-body[data-v-5d24cf9f]:has(.slot-both),.solar-title.is-body[data-v-5d24cf9f]:has(.slot-left),.solar-title.is-body[data-v-5d24cf9f]:has(.slot-right) {
+    align-items: center;
+    display: flex;
+    justify-content: space-between
+}
+
+.solar-title.is-body:has(.slot-both) .heading-3[data-v-5d24cf9f],.solar-title.is-body:has(.slot-left) .heading-3[data-v-5d24cf9f],.solar-title.is-body:has(.slot-right) .heading-3[data-v-5d24cf9f] {
+    padding-right: var(--solar-spacing-100);
+    white-space: nowrap
+}
+
+.solar-title.is-no-stroke[data-v-5d24cf9f] {
+    padding: 0;
+    border: none
+}
+
+.solar-title.is-page-header[data-v-5d24cf9f] {
+    border-top: none;
+    border-bottom: 2px solid var(--title-border-color);
+    display: flex;
+    align-content: center;
+    padding-bottom: var(--solar-spacing-100);
+    padding-top: 0
+}
+
+@media (max-width: 969px) {
+    .solar-title.is-page-header[data-v-5d24cf9f] {
+        padding-bottom:var(--solar-spacing-75)
+    }
+}
+
+.solar-title.is-page-header .slot-content[data-v-5d24cf9f] {
+    margin-right: var(--solar-spacing-100);
+    width: 72px;
+    display: flex;
+    justify-content: center
+}
+
+@media (max-width: 969px) {
+    .solar-title.is-page-header .slot-content[data-v-5d24cf9f] {
+        width:64px
+    }
+}
+
+.solar-title.is-page-header .heading-2[data-v-5d24cf9f] {
+    margin: 0
+}
+
+.solar-title.is-page-header .page-header[data-v-5d24cf9f] {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center
+}
+
+.solar-title.is-page-header .category[data-v-5d24cf9f] {
+    color: var(--solar-color-links-enabled)
+}
+
+.solar-title.is-page-header .cat-link[data-v-5d24cf9f] {
+    border-bottom: none
+}
+
+@media (min-width: 970px) {
+    .solar-title[data-v-5d24cf9f] {
+        padding-top:var(--solar-spacing-100)
+    }
+}
+
+.slot[data-v-5d24cf9f] {
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: space-between
+}
+
+.slot-left[data-v-5d24cf9f] {
+    justify-content: flex-start
+}
+
+.slot-right[data-v-5d24cf9f] {
+    justify-content: flex-end
+}
+
+.slot-both[data-v-5d24cf9f] {
+    justify-content: space-between
+}
+
+.uolpd-video-inarticle[data-v-9112c28d] {
+    clear: both;
+    height: 290px
+}
+
+@media (min-width: 970px) {
+    .uolpd-video-inarticle[data-v-9112c28d] {
+        height:392px
+    }
+}
+
+.uolpd-video-inarticle[data-v-9112c28d] div[id=inarticle-ad-container] {
+    background-color: var(--solar-color-neutral-50)
+}
+
+.uolpd-video-inarticle[data-v-9112c28d] div[id=inarticle-ad-header] {
+    font-family: var(--solar-typography-desktop-regular-text-font-family)
+}
+
+.K3T-qbYR {
+    --jupiter-columnists-top: 72px;
+    background-color: transparent
+}
+
+@media (min-width: 970px) {
+    .K3T-qbYR {
+        max-width:240px
+    }
+}
+
+@media (max-width: 969px) {
+    .K3T-qbYR {
+        margin-left:calc(var(--solar-spacing-100) * -1);
+        margin-right: calc(var(--solar-spacing-100) * -1)
+    }
+}
+
+.BlFWcnNo {
+    border-bottom: 1px solid var(--solar-color-neutral-100)
+}
+
+.K3T-qbYR._6T6JD-kR {
+    position: fixed;
+    top: var(--jupiter-columnists-top);
+    width: 100%;
+    z-index: var(--jupiter-columnists-z-index);
+    margin-left: initial;
+    margin-right: initial
+}
+
+
+.vertical[data-v-f6f1db1a] {
+    flex-direction: column;
+    justify-content: flex-start
+}
+
+.item[data-v-f6f1db1a] {
+    display: flex;
+    align-items: center;
+    justify-content: start
+}
+
+.solar-social-media[data-v-6619f140] {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%
+}
+
+.solar-social-media .label[data-v-6619f140] {
+    color: var(--solar-color-text-primary)
+}
+
+.solar-social-media .list[data-v-6619f140] {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: var(--solar-spacing-100)
+}
+
+.solar-social-media .list .item[data-v-6619f140]:last-child {
+    margin-right: 0
+}
+
+.solar-social-media .list .item .icon[data-v-6619f140] {
+    fill: var(--solar-color-icon-secondary);
+    display: block;
+    background: none;
+    border: none;
+    cursor: pointer;
+    height: 24px;
+    padding: 0;
+    width: auto
+}
+
+.solar-social-media .list .item .icon[data-v-6619f140]:hover,.solar-social-media .list .item .icon[data-v-6619f140]:active,.solar-social-media .list .item .icon[data-v-6619f140]:focus {
+    outline: none;
+    fill: var(--social-color, var(--solar-color-links-hover))
+}
+
+.solar-social-media .list.neutral[data-v-6619f140] {
+    gap: var(--solar-spacing-50)
+}
+
+.solar-social-media .list.neutral .item>.icon[data-v-6619f140] {
+    fill: var(--solar-color-icon-secondary);
+    display: flex;
+    background-color: var(--solar-color-background1-action-quinary-enabled);
+    border-radius: var(--solar-border-radius-200);
+    height: var(--solar-spacing-200);
+    width: var(--solar-spacing-200);
+    justify-content: center;
+    align-items: center;
+    padding: var(--solar-spacing-25)
+}
+
+.solar-social-media .list.neutral .item>.icon[data-v-6619f140]:hover,.solar-social-media .list.neutral .item>.icon[data-v-6619f140]:active,.solar-social-media .list.neutral .item>.icon[data-v-6619f140]:focus {
+    outline: none;
+    fill: var(--social-color, var(--solar-color-links-hover))
+}
+
+.solar-social-media .list.color[data-v-6619f140] {
+    gap: var(--solar-spacing-50)
+}
+
+.solar-social-media .list.color .item>.icon[data-v-6619f140] {
+    fill: var(--solar-color-static-white);
+    display: flex;
+    background: var(--social-color);
+    border-radius: var(--solar-border-radius-200);
+    height: var(--solar-spacing-200);
+    width: var(--solar-spacing-200);
+    justify-content: center;
+    align-items: center;
+    padding: var(--solar-spacing-25)
+}
+
+.solar-social-media .list.color .item>.icon[data-v-6619f140]:hover,.solar-social-media .list.color .item>.icon[data-v-6619f140]:active,.solar-social-media .list.color .item>.icon[data-v-6619f140]:focus {
+    outline: none;
+    opacity: .7
+}
+
+.solar-social-media.vertical[data-v-6619f140] {
+    flex-direction: column;
+    width: fit-content
+}
+
+.solar-social-media.vertical .label[data-v-6619f140] {
+    margin-right: var(--solar-spacing-150);
+    margin-bottom: var(--solar-spacing-50)
+}
+
+.solar-social-media.horizontal[data-v-6619f140] {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: center
+}
+
+.solar-social-media.horizontal .label[data-v-6619f140] {
+    width: max-content;
+    margin-right: var(--solar-spacing-150)
+}
+
+.solar-social-media.horizontal.wrapped[data-v-6619f140] {
+    grid-template-columns: auto
+}
+
+.solar-social-media.horizontal.wrapped .label[data-v-6619f140] {
+    margin-bottom: var(--solar-spacing-50)
+}
+
+.solar-alert .close-icon[data-v-6e5a3fde] {
+    cursor: pointer;
+    height: fit-content
+}
+
+.solar-alert.message[data-v-6e5a3fde] {
+    background-color: var(--message-background-color);
+    border: 1px solid var(--messsage-border-color);
+    border-radius: var(--solar-border-radius-50);
+    display: flex;
+    padding: var(--solar-spacing-100)
+}
+
+.solar-alert.message .solar-icon[data-v-6e5a3fde] {
+    justify-self: center
+}
+
+.solar-alert.message .message-container[data-v-6e5a3fde] {
+    display: flex;
+    width: 100%
+}
+
+.solar-alert.message .message-container .left-icon[data-v-6e5a3fde] {
+    fill: var(--message-icon-fill);
+    margin-right: var(--solar-spacing-100)
+}
+
+.solar-alert.message .message-container .texts-container .spacer[data-v-6e5a3fde] {
+    height: var(--solar-spacing-50)
+}
+
+.solar-alert.message .message-container .texts-container p[data-v-6e5a3fde] {
+    margin: 0
+}
+
+.solar-alert.message .message-container .texts-container p.bold-text-2[data-v-6e5a3fde] {
+    color: var(--solar-color-neutral-900)
+}
+
+.solar-alert.message .message-container .texts-container p.regular-subtext[data-v-6e5a3fde] {
+    color: var(--solar-color-neutral-700)
+}
+
+.solar-alert.message .message-container .texts-container .buttons-container[data-v-6e5a3fde] {
+    display: flex;
+    gap: var(--solar-spacing-200);
+    align-items: center;
+    padding-top: var(--solar-spacing-100)
+}
+
+.solar-alert.message .close-icon[data-v-6e5a3fde] {
+    margin-left: var(--solar-spacing-100)
+}
+
+@media (min-width: 970px) {
+    .solar-alert.message .close-icon[data-v-6e5a3fde] {
+        margin-left:var(--solar-spacing-150)
+    }
+
+    .solar-alert.message .message-container .texts-container .buttons-container[data-v-6e5a3fde] {
+        padding-top: var(--solar-spacing-150)
+    }
+
+    .solar-alert.message.inline[data-v-6e5a3fde] {
+        align-items: center
+    }
+
+    .solar-alert.message.inline .solar-icon[data-v-6e5a3fde] {
+        align-self: center
+    }
+
+    .solar-alert.message.inline .texts-container[data-v-6e5a3fde] {
+        display: grid;
+        grid-template-columns: auto auto;
+        align-items: center;
+        width: 100%
+    }
+
+    .solar-alert.message.inline .texts-container .buttons-container[data-v-6e5a3fde] {
+        padding: 0;
+        margin-left: var(--solar-spacing-100);
+        justify-content: end
+    }
+}
+
+.solar-alert.main[data-v-6e5a3fde] {
+    display: flex
+}
+
+.solar-alert.main.misprint[data-v-6e5a3fde] {
+    color: var(--solar-color-links-enabled);
+    height: var(--solar-spacing-150);
+    width: fit-content
+}
+
+.solar-alert.main.misprint .solar-icon[data-v-6e5a3fde] {
+    height: var(--solar-spacing-150);
+    fill: var(--solar-color-icon-primary)
+}
+
+.solar-alert.main.old-content[data-v-6e5a3fde],.solar-alert.main.adult[data-v-6e5a3fde],.solar-alert.main.stack[data-v-6e5a3fde] {
+    color: var(--solar-color-neutral-900);
+    background-color: var(--solar-color-warning-400);
+    min-height: var(--solar-spacing-250);
+    padding: 0 var(--solar-spacing-100);
+    justify-content: center;
+    align-items: center;
+    width: 100%
+}
+
+.solar-alert.main.old-content .solar-icon[data-v-6e5a3fde],.solar-alert.main.old-content .solar-icon svg[data-v-6e5a3fde],.solar-alert.main.adult .solar-icon[data-v-6e5a3fde],.solar-alert.main.adult .solar-icon svg[data-v-6e5a3fde],.solar-alert.main.stack .solar-icon[data-v-6e5a3fde],.solar-alert.main.stack .solar-icon svg[data-v-6e5a3fde] {
+    fill: var(--solar-color-neutral-900)
+}
+
+.solar-alert.main.stack[data-v-6e5a3fde] {
+    flex-direction: column
+}
+
+.solar-alert.main.stack .alert-container[data-v-6e5a3fde] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0
+}
+
+.solar-alert.main.stack .alert-container .solar-icon[data-v-6e5a3fde] {
+    margin-right: var(--solar-spacing-50)
+}
+
+@media (min-width: 970px) {
+    .solar-alert.main.old-content[data-v-6e5a3fde],.solar-alert.main.adult[data-v-6e5a3fde] {
+        min-height:var(--solar-spacing-300)
+    }
+
+    .solar-alert.main.stack[data-v-6e5a3fde] {
+        flex-direction: row;
+        gap: 0
+    }
+
+    .solar-alert.main.stack .divisor[data-v-6e5a3fde] {
+        width: 1px;
+        height: 24px;
+        background-color: var(--solar-color-warning-200);
+        margin: 0 var(--solar-spacing-50)
+    }
+
+    .solar-alert.main.stack .alert-container[data-v-6e5a3fde] {
+        padding: 12px 0
+    }
+}
+
+.solar-alert.notification[data-v-6e5a3fde],.solar-alert.notification-content[data-v-6e5a3fde] {
+    border-radius: var(--solar-border-radius-25);
+    display: flex;
+    justify-content: space-between;
+    gap: var(--solar-spacing-50);
+    padding: var(--solar-spacing-50)
+}
+
+.solar-alert.notification[data-v-6e5a3fde] {
+    background-color: var(--solar-color-background1-action-quinary-enabled)
+}
+
+.solar-alert.notification .regular-caption[data-v-6e5a3fde] {
+    color: var(--solar-color-text-primary);
+    padding-bottom: var(--solar-spacing-25)
+}
+
+.solar-alert.notification .regular-subtext[data-v-6e5a3fde] {
+    color: var(--solar-color-text-secondary)
+}
+
+.solar-alert.notification .close-icon[data-v-6e5a3fde] {
+    fill: var(--solar-color-icon1-action-tertiary-enabled)
+}
+
+.solar-alert.notification a[data-v-6e5a3fde] {
+    border: 0;
+    display: inline-block
+}
+
+.solar-alert.notification.read[data-v-6e5a3fde] {
+    background-color: var(--solar-color-background1-action-quinary-disabled)
+}
+
+.solar-alert.notification.read .regular-caption[data-v-6e5a3fde],.solar-alert.notification.read .regular-subtext[data-v-6e5a3fde],.solar-alert.notification.read .solar-date[data-v-6e5a3fde] {
+    color: var(--solar-color-text-secondary)
+}
+
+.solar-alert.notification[data-v-6e5a3fde]:hover,.solar-alert.notification[data-v-6e5a3fde]:active {
+    background-color: var(--solar-color-background1-action-quinary-hover)
+}
+
+.solar-alert.notification:hover .regular-caption[data-v-6e5a3fde],.solar-alert.notification:active .regular-caption[data-v-6e5a3fde] {
+    color: var(--solar-color-text-primary)
+}
+
+.solar-alert.notification:hover .close-icon[data-v-6e5a3fde],.solar-alert.notification:active .close-icon[data-v-6e5a3fde] {
+    fill: var(--solar-color-icon1-action-tertiary-hover)
+}
+
+.solar-alert.notification-content[data-v-6e5a3fde] {
+    background-color: var(--solar-color-background1-action-tertiary-enabled);
+    flex-wrap: nowrap
+}
+
+.solar-alert.notification-content .solar-badge[data-v-6e5a3fde] {
+    text-wrap: nowrap
+}
+
+.solar-alert.notification-content.desktop[data-v-6e5a3fde]:hover,.solar-alert.notification-content.desktop[data-v-6e5a3fde]:active {
+    background-color: var(--solar-color-background1-action-quinary-hover)
+}
+
+.solar-alert.notification-content.desktop .content a[data-v-6e5a3fde] {
+    display: flex;
+    vertical-align: middle
+}
+
+.solar-alert.notification-content.desktop .regular-caption[data-v-6e5a3fde] {
+    padding: 4px 8px
+}
+
+.solar-alert.notification-content.desktop .bold-caption[data-v-6e5a3fde] {
+    padding: 4px 8px;
+    display: inline-block;
+    vertical-align: top
+}
+
+.solar-alert.notification-content a[data-v-6e5a3fde] {
+    border: none;
+    color: var(--solar-color-text-primary)
+}
+
+.solar-alert.notification-content .regular-caption[data-v-6e5a3fde] {
+    line-height: 16px
+}
+
+.solar-alert.notification-content .solar-icon[data-v-6e5a3fde] {
+    vertical-align: middle
+}
+
+.solar-alert.notification-content.mobile[data-v-6e5a3fde] {
+    background: var(--solar-color-background1-action-tertiary-enabled);
+    box-shadow: var(--solar-drop-shadow-100);
+    padding-top: 0;
+    padding-bottom: 0;
+    overflow: hidden;
+    min-width: 288px;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    border-radius: 4px
+}
+
+.solar-alert.notification-content.mobile div.picture[data-v-6e5a3fde] {
+    margin-left: -8px
+}
+
+.solar-alert.notification-content.mobile div.picture a[data-v-6e5a3fde] {
+    display: block;
+    height: 108px
+}
+
+.solar-alert.notification-content.mobile div.content[data-v-6e5a3fde] {
+    align-items: center;
+    display: flex;
+    padding: var(--solar-spacing-50) 0;
+    flex: 1 0 0
+}
+
+.solar-alert.notification-content.mobile div.content a[data-v-6e5a3fde] {
+    display: flex;
+    flex-direction: column;
+    gap: var(--solar-spacing-50)
+}
+
+.solar-alert.notification-content.mobile img[data-v-6e5a3fde] {
+    width: 108px;
+    height: 108px
+}
+
+.solar-alert.notification-content.mobile .close-icon[data-v-6e5a3fde] {
+    margin-top: var(--solar-spacing-50)
+}
+
+@media (min-width: 970px) {
+    .solar-alert.notification-content[data-v-6e5a3fde] {
+        min-width:640px
+    }
+}
+
+.positive[data-v-6e5a3fde] {
+    --message-background-color: var(--solar-color-positive-50);
+    --messsage-border-color: var(--solar-color-positive-100);
+    --message-icon-fill: var(--solar-color-positive-800)
+}
+
+.warning[data-v-6e5a3fde] {
+    --message-background-color: var(--solar-color-warning-50);
+    --messsage-border-color: var(--solar-color-warning-100);
+    --message-icon-fill: var(--solar-color-warning-400)
+}
+
+.negative[data-v-6e5a3fde] {
+    --message-background-color: var(--solar-color-negative-50);
+    --messsage-border-color: var(--solar-color-negative-100);
+    --message-icon-fill: var(--solar-color-negative-600)
+}
+
+.informative[data-v-6e5a3fde] {
+    --message-background-color: var(--solar-color-informative-50);
+    --messsage-border-color: var(--solar-color-informative-100);
+    --message-icon-fill: var(--solar-color-informative-600)
+}
+
+.jupiter-paragraph-fragment[data-v-232111b4] {
+    --block-spacing: var(--solar-spacing-150)
+}
+
+.jupiter-paragraph-fragment>*[data-v-232111b4] {
+    margin-top: var(--block-spacing);
+    margin-bottom: var(--block-spacing)
+}
+
+.jupiter-paragraph-fragment>*[data-v-232111b4]:first-child {
+    margin-top: 0
+}
+
+@media (min-width: 970px) {
+    .jupiter-paragraph-fragment[data-v-232111b4] {
+        --block-spacing: var(--solar-spacing-200)
+    }
+}
+
+.NLoMI9Qc a {
+    border-bottom: 0
+}
+
+.NLoMI9Qc ul,.NLoMI9Qc li {
+    list-style: none;
+    padding-left: 0;
+    margin: 0
+}
+
+.NLoMI9Qc li:hover {
+    opacity: 60%
+}
+
+.h9bI8zWe {
+    display: flex;
+    flex-direction: column;
+    gap: var(--solar-spacing-150)
+}
+
+.h9bI8zWe .-jQFEH9Z {
+    font-size: 16px
+}
+
+.bcMUWP0C {
+    color: var(--solar-color-text-secondary)
+}
+
+._54Z25QmM {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center
+}
+
+._54Z25QmM>[class*=heading-] {
+    color: var(--solar-color-text-tertiary)
+}
+
+.EzGWiVLv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: calc(var(--solar-spacing-200))
+}
+
+.solar-related-avatar.type-horizontal[data-v-efe8e69d] {
+    text-align: center;
+    overflow: scroll hidden;
+    scrollbar-width: none;
+    -ms-overflow-style: none
+}
+
+.solar-related-avatar.type-horizontal[data-v-efe8e69d]::-webkit-scrollbar {
+    display: none
+}
+
+@media (min-width: 970px) {
+    .solar-related-avatar.type-horizontal[data-v-efe8e69d] {
+        overflow:auto
+    }
+}
+
+.solar-related-avatar.type-horizontal .horizontal-content[data-v-efe8e69d] {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: var(--solar-spacing-100);
+    padding: 0 var(--solar-spacing-100);
+    background-color: var(--solar-color-background-primary);
+    height: 91px
+}
+
+.solar-related-avatar.type-horizontal .horizontal-content .solar-headline[data-v-efe8e69d] {
+    min-width: 258px
+}
+
+@media (min-width: 970px) {
+    .solar-related-avatar.type-horizontal .horizontal-content[data-v-efe8e69d] {
+        gap:var(--solar-spacing-150);
+        padding: var(--solar-spacing-100) 0;
+        height: auto;
+        align-items: flex-start
+    }
+
+    .solar-related-avatar.type-horizontal .horizontal-content .solar-headline[data-v-efe8e69d] {
+        min-width: auto;
+        flex: 1
+    }
+}
+
+@media (max-width: 969px) {
+    .jupiter-share[data-v-39e8c6b6] {
+        max-width:184px
+    }
+}
+
+.solar-caption[data-v-524617ed] {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    color: var(--solar-color-text-primary);
+    padding-left: var(--solar-spacing-100)
+}
+
+.solar-caption[data-v-524617ed]:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    border-left: 2px solid var(--solar-color-decoration-primary)
+}
+
+@media (min-width: 970px) {
+    .solar-caption[data-v-524617ed]:before {
+        border-radius:4px
+    }
+}
+
+.solar-caption span[data-v-524617ed] {
+    color: var(--solar-color-text-secondary)
+}
+
+.XDHTfbCy {
+    background-color: var(--solar-color-background-header);
+    transition: .5s all
+}
+
+.k-6jsN7G {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 2fr;
+    height: 56px
+}
+
+
+.jSHdaL9w {
+    border-bottom: 1px solid var(--solar-color-stroke-divider-primary)
+}
+
+.QxFmtM4r {
+    display: flex;
+    align-items: center;
+    gap: var(--solar-spacing-100)
+}
+
+._-1cR-Km4 {
+    display: flex
+}
+
+
+
+.CjJv32Px {
+    display: flex;
+    align-items: center;
+    justify-self: end;
+    gap: var(--solar-spacing-100)
+}
+
+@media (min-width: 970px) {
+    .k-6jsN7G {
+        grid-template-columns:1fr 3fr 1fr
+    }
+
+    .CjJv32Px {
+        gap: var(--solar-spacing-150)
+    }
+}
+
+/* .jupiter-header .vertical-brand[data-v-728143fa],.jupiter-header .vertical-brand a[data-v-728143fa] {
+    display: flex;
+    align-items: center;
+    gap: var(--solar-spacing-50)
+} */
+
+/* .jupiter-header.sign-selected[data-v-728143fa] .solar-list li:nth-child(2) svg {
+    fill: var(--solar-color-icon1-action-primary-selected)
+} */
+
+.jupiter-headline .sign-it[data-v-c054eacf] {
+    margin: 0;
+    margin-bottom: var(--solar-spacing-100)
+}
+
+.jupiter-headline .headline-container .headline-footer .info .headline-social-share[data-v-c054eacf] {
+    display: flex;
+    align-self: baseline;
+    flex: none
+}
+
+@media (min-width: 970px) {
+    .headline-footer .info[data-v-c054eacf] {
+        display:flex;
+        align-items: center;
+        justify-content: space-between
+    }
+
+    .headline-footer .info:has(.headline-group) .headline-social-share[data-v-c054eacf] {
+        margin-top: 3px;
+        margin-left: var(--solar-spacing-100)
+    }
+}
+
+body {
+    --header-height: 56px;
+    --main-pt: 0%;
+    --z-index-header: 99999999;
+    --z-index-modal: calc(var(--z-index-header) + 1)
+}
+
+@media (min-width: 970px) {
+    body {
+        --header-height: 73px
+    }
+}
+
+body .vl-wrapper .header-top-wrapper {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: var(--z-index-header);
+    background-color: var(--solar-color-static-white)
+}
+
+body .vl-wrapper .z-index-modal {
+    position: relative;
+    z-index: var(--z-index-modal)
+}
+
+body .vl-wrapper .stick {
+    position: sticky;
+    top: calc(var(--header-height) + var(--main-pt) + var(--solar-spacing-100))
+}
+
+body .vl-wrapper .stick.horizontal-campaign {
+    top: 0;
+    z-index: var(--z-index-header)
+}
+
+body .row {
+    margin-left: calc(var(--solar-spacing-100) * -1);
+    margin-right: calc(var(--solar-spacing-100) * -1)
+}
+
+body.in-app .vl-wrapper {
+    padding-top: var(--main-pt)
+}
+
+body .fixed-mobile-area {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: var(--z-index-header)
+}
+
+@media (max-width: 969px) {
+    aside[data-v-5442f4c2]:not(.jupiter-read-aloud):empty {
+        display:none
+    }
+}
+
+:root {
+    /* --solar-spacing-1000: 160px;
+    --solar-spacing-600: 96px;
+    --solar-spacing-500: 80px; */
+    --solar-spacing-400: 64px;
+    --solar-spacing-300: 48px;
+    --solar-spacing-250: 40px;
+    --solar-spacing-200: 32px;
+    --solar-spacing-150: 24px;
+    --solar-spacing-100: 16px;
+    --solar-spacing-75: 12px;
+    --solar-spacing-50: 8px;
+    --solar-spacing-25: 4px;
+    --solar-spacing-5: 2px;
+    /* --solar-drop-shadow-200: 0 0 8px #00000040; */
+    --solar-drop-shadow-100: 0 0 4px #00000040;
+    --solar-grid-breakpoint-lg-max: 1120px;
+    --solar-grid-breakpoint-lg: 970px;
+    --solar-grid-breakpoint-xs-max: 540px;
+    --solar-border-radius-700: 96px;
+    --solar-border-radius-600: 80px;
+    --solar-border-radius-500: 64px;
+    --solar-border-radius-400: 48px;
+    --solar-border-radius-300: 40px;
+    --solar-border-radius-200: 32px;
+    --solar-border-radius-150: 24px;
+    --solar-border-radius-100: 16px;
+    --solar-border-radius-75: 12px;
+    --solar-border-radius-50: 8px;
+    --solar-border-radius-25: 4px;
+    --solar-border-radius-5: 2px;
+    --solar-brand-color-tertiary-900: #5c4a00ff;
+    --solar-brand-color-tertiary-800: #856b00ff;
+    --solar-brand-color-tertiary-700: #ad8c00ff;
+    --solar-brand-color-tertiary-600: #d6ad00ff;
+    --solar-brand-color-tertiary-500: #ffce00ff;
+    --solar-brand-color-tertiary-400: #ffd72eff;
+    --solar-brand-color-tertiary-300: #ffdf5cff;
+    --solar-brand-color-tertiary-200: #ffe88aff;
+    --solar-brand-color-tertiary-100: #fff1b7ff;
+    --solar-brand-color-tertiary-50: #fffae5ff;
+    --solar-brand-color-secondary-900: #5c2e00ff;
+    --solar-brand-color-secondary-800: #854300ff;
+    --solar-brand-color-secondary-700: #ad5700ff;
+    --solar-brand-color-secondary-600: #d66c00ff;
+    --solar-brand-color-secondary-500: #ff8000ff;
+    --solar-brand-color-secondary-400: #ff972eff;
+    --solar-brand-color-secondary-300: #ffae5cff;
+    --solar-brand-color-secondary-200: #ffc48aff;
+    --solar-brand-color-secondary-100: #ffdbb7ff;
+    --solar-brand-color-secondary-50: #fff2e5ff;
+    --solar-brand-color-primary-900: #5c000dff;
+    --solar-brand-color-primary-800: #850013ff;
+    --solar-brand-color-primary-700: #ad0019ff;
+    --solar-brand-color-primary-600: #d6001eff;
+    --solar-brand-color-primary-500: #ff0024ff;
+    --solar-brand-color-primary-400: #ff2e4bff;
+    --solar-brand-color-primary-300: #ff5c73ff;
+    --solar-brand-color-primary-200: #ff8a9aff;
+    --solar-brand-color-primary-100: #ffb7c1ff;
+    --solar-brand-color-primary-50: #ffe5e9ff;
+    --solar-color-warning-900: #552300;
+    --solar-color-warning-800: #773100;
+    --solar-color-warning-700: #994000;
+    --solar-color-warning-600: #bb540b;
+    --solar-color-warning-500: #dd6a19;
+    --solar-color-warning-400: #ff832b;
+    --solar-color-warning-300: #ff9f5b;
+    --solar-color-warning-200: #ffbb8a;
+    --solar-color-warning-100: #ffd6ba;
+    --solar-color-warning-50: #fff2ea;
+    --solar-color-subscribed-900: #5c4a00ff;
+    --solar-color-subscribed-800: #856b00ff;
+    --solar-color-subscribed-700: #ad8c00ff;
+    --solar-color-subscribed-600: #d6ad00ff;
+    --solar-color-subscribed-500: #ffce00ff;
+    --solar-color-subscribed-400: #ffd72eff;
+    --solar-color-subscribed-300: #ffdf5cff;
+    --solar-color-subscribed-200: #ffe88aff;
+    --solar-color-subscribed-100: #fff1b7ff;
+    --solar-color-subscribed-50: #fffae5ff;
+    --solar-color-static-white: #ffffffff;
+    --solar-color-static-black: #000000ff;
+    --solar-color-sports-yellow: #0d2b5a;
+    --solar-color-sports-red: #b80e17;
+    --solar-color-socialmedia-vine: #00b489;
+    --solar-color-socialmedia-google-plus: #db4437;
+    --solar-color-socialmedia-telegram: #0088cc;
+    --solar-color-socialmedia-soundcloud: #ff5500;
+    --solar-color-socialmedia-yahoo: #6001d2;
+    --solar-color-socialmedia-flickr: #f40083;
+    --solar-color-socialmedia-slack: #4a154b;
+    --solar-color-socialmedia-dribbble: #ea4c89;
+    --solar-color-socialmedia-quora: #aa2200;
+    --solar-color-socialmedia-vimeo: #1ab7ea;
+    --solar-color-socialmedia-medium: #02b875;
+    --solar-color-socialmedia-foursquare: #f94877;
+    --solar-color-socialmedia-alexa: #00a7ce;
+    --solar-color-socialmedia-amazon: #ff9900;
+    --solar-color-socialmedia-apple: #a6b1b7;
+    --solar-color-socialmedia-spotify: #1ed760;
+    --solar-color-socialmedia-discord: #5865f2;
+    --solar-color-socialmedia-twitch: #9146ff;
+    --solar-color-socialmedia-reddit: #ff4500;
+    --solar-color-socialmedia-tumblr: #35465d;
+    --solar-color-socialmedia-flipboard: #F52828;
+    --solar-color-socialmedia-whatsapp: #25d366;
+    --solar-color-socialmedia-snapchat: #fffc00;
+    --solar-color-socialmedia-pinterest: #bd081c;
+    --solar-color-socialmedia-google: #4285f4;
+    --solar-color-socialmedia-tiktok: #ee1d52;
+    --solar-color-socialmedia-instagram: #c32aa3;
+    --solar-color-socialmedia-linkedin: #0a66c2;
+    --solar-color-socialmedia-youtube: #ff0000;
+    --solar-color-socialmedia-twitter: #4f4f4f;
+    --solar-color-socialmedia-facebook: #1877f2;
+    --solar-color-positive-900: #0c5e24ff;
+    --solar-color-positive-800: #198038ff;
+    --solar-color-positive-700: #2ba24fff;
+    --solar-color-positive-600: #42c469ff;
+    --solar-color-positive-500: #5ee687ff;
+    --solar-color-positive-400: #7bffa2ff;
+    --solar-color-positive-300: #98ffb7ff;
+    --solar-color-positive-200: #b6ffccff;
+    --solar-color-positive-100: #d4ffe1ff;
+    --solar-color-positive-50: #f2fff6ff;
+    --solar-color-neutral-900: #202020ff;
+    --solar-color-neutral-800: #333333ff;
+    --solar-color-neutral-700: #4d4d4dff;
+    --solar-color-neutral-600: #666666ff;
+    --solar-color-neutral-500: #808080ff;
+    --solar-color-neutral-400: #999999ff;
+    --solar-color-neutral-300: #b3b3b3ff;
+    --solar-color-neutral-200: #ccccccff;
+    --solar-color-neutral-100: #e6e6e6ff;
+    --solar-color-neutral-50: #f2f2f2ff;
+    --solar-color-negative-900: #520004ff;
+    --solar-color-negative-800: #740006ff;
+    --solar-color-negative-700: #96020aff;
+    --solar-color-negative-600: #b80e17ff;
+    --solar-color-negative-400: #fc323dff;
+    --solar-color-negative-500: #da1e28ff;
+    --solar-color-negative-300: #ff6169ff;
+    --solar-color-negative-200: #ff8f95ff;
+    --solar-color-negative-100: #ffbcc0ff;
+    --solar-color-negative-50: #ffeaebff;
+    --solar-color-informative-900: #00316c;
+    --solar-color-informative-800: #004394;
+    --solar-color-informative-700: #0257bd;
+    --solar-color-informative-600: #1473e6;
+    --solar-color-informative-500: #2a8aff;
+    --solar-color-informative-400: #509fff;
+    --solar-color-informative-300: #76b4ff;
+    --solar-color-informative-200: #9dc9ff;
+    --solar-color-informative-100: #c3deff;
+    --solar-color-informative-50: #e9f3ff;
+    --solar-background-secondary-500: var(--solar-brand-color-secondary-500);
+    --solar-user-email-background-secondary: var(--solar-brand-color-primary-700);
+    --solar-user-email-background-primary: var(--solar-brand-color-primary-600);
+    --solar-color-stroke-divider-quartenary: var(--solar-color-static-black);
+    --solar-color-stroke-divider-tertiary: var(--solar-color-neutral-300);
+    --solar-color-stroke-divider-secondary: var(--solar-brand-color-primary-600);
+    --solar-color-stroke-divider-primary: var(--solar-color-neutral-100);
+    --solar-color-links-hover: var(--solar-brand-color-primary-700);
+    --solar-color-links-active: var(--solar-brand-color-primary-700);
+    --solar-color-links-visited: var(--solar-brand-color-primary-800);
+    --solar-color-links-enabled: var(--solar-brand-color-primary-600);
+    --solar-color-icon-sports-quartenary: var(--solar-color-neutral-600);
+    --solar-color-icon-sports-tertiary: var(--solar-color-static-black);
+    --solar-color-icon-sports-secondary: var(--solar-color-negative-500);
+    --solar-color-icon-sports-primary: var(--solar-color-positive-800);
+    --solar-color-icon-form-focused: var(--solar-color-neutral-700);
+    --solar-color-icon-form-hover: var(--solar-color-neutral-700);
+    --solar-color-icon-form-enabled: var(--solar-color-neutral-700);
+    --solar-color-icon-form-disabled: var(--solar-color-neutral-200);
+    --solar-color-icon-form-placeholder: var(--solar-color-neutral-700);
+    --solar-color-icon-quartenary: var(--solar-color-static-black);
+    --solar-color-icon-tertiary: var(--solar-color-neutral-600);
+    --solar-color-icon-secondary: var(--solar-color-neutral-900);
+    --solar-color-icon-primary: var(--solar-brand-color-primary-600);
+    --solar-color-heading-primary: var(--solar-color-neutral-900);
+    --solar-color-foreground-input-selected-enabled: var(--solar-brand-color-primary-600);
+    --solar-color-foreground-unselected-enabled: var(--solar-color-static-white);
+    --solar-color-foreground-unselected-focused: var(--solar-color-static-white);
+    --solar-color-foreground-unselected-hover: var(--solar-color-static-white);
+    --solar-color-foreground-unselected-disabled: var(--solar-color-neutral-50);
+    --solar-color-foreground-unselected-active: var(--solar-color-static-white);
+    --solar-color-foreground-selected-focused: var(--solar-brand-color-primary-600);
+    --solar-color-foreground-selected-disabled: var(--solar-color-neutral-50);
+    --solar-color-foreground-selected-active: var(--solar-brand-color-primary-700);
+    --solar-color-foreground-selected-hover: var(--solar-brand-color-primary-700);
+    --solar-color-foreground-disabled: var(--solar-color-neutral-50);
+    --solar-color-decoration-secondary: var(--solar-color-neutral-300);
+    --solar-color-decoration-primary: var(--solar-brand-color-primary-600);
+    --solar-color-border-input-unselected-enabled: var(--solar-color-neutral-600);
+    --solar-color-border-input-unselected-active: var(--solar-color-neutral-600);
+    --solar-color-border-input-unselected-hover: var(--solar-color-neutral-300);
+    --solar-color-border-input-unselected-disabled: var(--solar-color-neutral-300);
+    --solar-color-border-input-unselected-focused: var(--solar-color-neutral-300);
+    --solar-color-border-input-selected-active: var(--solar-brand-color-primary-700);
+    --solar-color-border-input-selected-focused: var(--solar-brand-color-primary-700);
+    --solar-color-border-input-selected-disabled: var(--solar-color-neutral-300);
+    --solar-color-border-input-selected-enabled: var(--solar-brand-color-primary-600);
+    --solar-color-border-input-selected-hover: var(--solar-brand-color-primary-700);
+    --solar-color-border-input-disabled: var(--solar-color-neutral-300);
+    --solar-color-border-form-disabled: var(--solar-color-neutral-50);
+    --solar-color-border-form-focused: var(--solar-brand-color-primary-600);
+    --solar-color-border-form-placeholder: var(--solar-color-neutral-200);
+    --solar-color-border-form-enabled: var(--solar-color-neutral-200);
+    --solar-color-border-form-hover: var(--solar-color-neutral-400);
+    --solar-color-border-quartenary: var(--solar-color-neutral-200);
+    --solar-color-border-tertiary: var(--solar-color-neutral-300);
+    --solar-color-border-secondary: var(--solar-brand-color-primary-100);
+    --solar-color-border-primary: var(--solar-brand-color-primary-600);
+    --solar-color-background-form-placeholder: var(--solar-color-static-white);
+    --solar-color-background-form-disabled: var(--solar-color-static-white);
+    --solar-color-background-form-hover: var(--solar-color-neutral-50);
+    --solar-color-background-form-enabled: var(--solar-color-static-white);
+    --solar-color-background-form-focused: var(--solar-color-neutral-100);
+    --solar-color-background-input-selected-focused: var(--solar-brand-color-primary-100);
+    --solar-color-background-input-selected-active: var(--solar-brand-color-primary-200);
+    --solar-color-background-input-selected-disabled: var(--solar-color-neutral-50);
+    --solar-color-background-input-selected-hover: var(--solar-brand-color-primary-200);
+    --solar-color-background-input-selected-enabled: var(--solar-brand-color-primary-100);
+    --solar-color-background-input-unselected-enabled: var(--solar-color-neutral-100);
+    --solar-color-background-input-unselected-active: var(--solar-color-neutral-200);
+    --solar-color-background-input-unselected-hover: var(--solar-color-neutral-200);
+    --solar-color-background-input-unselected-focused: var(--solar-color-neutral-100);
+    --solar-color-background-input-unselected-disabled: var(--solar-color-neutral-100);
+    --solar-color-background-input-disabled: var(--solar-color-neutral-100);
+    --solar-color-background-header: var(--solar-color-static-white);
+    --solar-color-background-subscribed: var(--solar-color-subscribed-500);
+    --solar-color-background-senary: var(--solar-brand-color-primary-600);
+    --solar-color-background-quinary: var(--solar-color-static-black);
+    --solar-color-background-quartenary: var(--solar-brand-color-secondary-500);
+    --solar-color-background-tertiary: var(--solar-brand-color-primary-600);
+    --solar-color-background-secondary: var(--solar-color-neutral-50);
+    --solar-color-background-primary: var(--solar-color-static-white);
+    --solar-color-text3-action-secondary-disabled: var(--solar-color-neutral-100);
+    --solar-color-text3-action-secondary-focused: var(--solar-color-neutral-300);
+    --solar-color-text3-action-secondary-active: var(--solar-color-neutral-600);
+    --solar-color-text3-action-secondary-hover: var(--solar-color-neutral-300);
+    --solar-color-text3-action-secondary-enabled: var(--solar-color-static-white);
+    --solar-color-icon3-action-secondary-enabled: var(--solar-color-static-white);
+    --solar-color-icon3-action-secondary-hover: var(--solar-color-neutral-300);
+    --solar-color-icon3-action-secondary-active: var(--solar-color-neutral-600);
+    --solar-color-icon3-action-secondary-focused: var(--solar-color-neutral-300);
+    --solar-color-icon3-action-secondary-disabled: var(--solar-color-neutral-100);
+    --solar-color-icon3-action-secondary-selected: var(--solar-color-static-white);
+    --solar-color-text-sports-quartenary: var(--solar-color-neutral-600);
+    --solar-color-text-sports-tertiary: var(--solar-color-static-black);
+    --solar-color-text-sports-secondary: var(--solar-color-negative-500);
+    --solar-color-text-sports-primary: var(--solar-color-positive-800);
+    --solar-color-text-form-hover: var(--solar-color-neutral-900);
+    --solar-color-text-form-enabled: var(--solar-color-neutral-900);
+    --solar-color-text-form-placeholder: var(--solar-color-neutral-500);
+    --solar-color-text-form-disabled: var(--solar-color-neutral-300);
+    --solar-color-text-form-focused: var(--solar-color-neutral-900);
+    --solar-color-text-input-selected-enabled: var(--solar-brand-color-primary-600);
+    --solar-color-text-input-selected-active: var(--solar-brand-color-primary-800);
+    --solar-color-text-input-selected-hover: var(--solar-brand-color-primary-700);
+    --solar-color-text-input-selected-focused: var(--solar-brand-color-primary-700);
+    --solar-color-text-input-unselected-focused: var(--solar-color-neutral-600);
+    --solar-color-text-input-unselected-active: var(--solar-color-neutral-700);
+    --solar-color-text-input-unselected-enabled: var(--solar-color-neutral-600);
+    --solar-color-text-input-unselected-hover: var(--solar-color-neutral-600);
+    --solar-color-text-input-disabled: var(--solar-color-neutral-300);
+    --solar-color-text-quinary: var(--solar-color-neutral-300);
+    --solar-color-text-quartenary: var(--solar-color-static-white);
+    --solar-color-text-tertiary: var(--solar-brand-color-primary-600);
+    --solar-color-text-secondary: var(--solar-color-neutral-600);
+    --solar-color-text-primary: var(--solar-color-neutral-900);
+    --solar-color-text-action-quartenary-enabled: var(--solar-color-static-black);
+    --solar-color-text-action-quartenary-hover: var(--solar-color-static-black);
+    --solar-color-text-action-quartenary-active: var(--solar-color-static-black);
+    --solar-color-text-action-quartenary-focused: var(--solar-color-static-black);
+    --solar-color-text-action-quartenary-disabled: var(--solar-color-neutral-100);
+    --solar-color-text2-action-secondary-disabled: var(--solar-color-neutral-300);
+    --solar-color-text2-action-secondary-focused: var(--solar-color-neutral-600);
+    --solar-color-text2-action-secondary-active: var(--solar-color-static-black);
+    --solar-color-text2-action-secondary-hover: var(--solar-color-neutral-600);
+    --solar-color-text2-action-secondary-enabled: var(--solar-color-neutral-900);
+    --solar-color-text2-action-primary-selected: var(--solar-color-static-white);
+    --solar-color-text2-action-primary-disabled: var(--solar-color-neutral-100);
+    --solar-color-text2-action-primary-focused: var(--solar-color-static-white);
+    --solar-color-text2-action-primary-active: var(--solar-color-static-white);
+    --solar-color-text2-action-primary-hover: var(--solar-color-static-white);
+    --solar-color-text2-action-primary-enabled: var(--solar-color-static-white);
+    --solar-color-text1-action-tertiary-disabled: var(--solar-color-neutral-300);
+    --solar-color-text1-action-tertiary-focused: var(--solar-color-neutral-900);
+    --solar-color-text1-action-tertiary-active: var(--solar-color-neutral-900);
+    --solar-color-text1-action-tertiary-hover: var(--solar-color-neutral-900);
+    --solar-color-text1-action-tertiary-enabled: var(--solar-color-neutral-900);
+    --solar-color-text1-action-secondary-selected: var(--solar-color-neutral-900);
+    --solar-color-text1-action-secondary-disabled: var(--solar-color-neutral-300);
+    --solar-color-text1-action-secondary-focused: var(--solar-brand-color-primary-700);
+    --solar-color-text1-action-secondary-active: var(--solar-color-static-black);
+    --solar-color-text1-action-secondary-hover: var(--solar-brand-color-primary-700);
+    --solar-color-text1-action-secondary-enabled: var(--solar-color-neutral-900);
+    --solar-color-text1-action-primary-selected: var(--solar-brand-color-primary-600);
+    --solar-color-text1-action-primary-disabled: var(--solar-color-neutral-300);
+    --solar-color-text1-action-primary-focused: var(--solar-brand-color-primary-700);
+    --solar-color-text1-action-primary-active: var(--solar-brand-color-primary-700);
+    --solar-color-text1-action-primary-hover: var(--solar-brand-color-primary-700);
+    --solar-color-text1-action-primary-enabled: var(--solar-brand-color-primary-600);
+    --solar-color-icon2-action-secondary-enabled: var(--solar-color-neutral-900);
+    --solar-color-icon2-action-secondary-hover: var(--solar-color-neutral-600);
+    --solar-color-icon2-action-secondary-active: var(--solar-color-static-black);
+    --solar-color-icon2-action-secondary-focused: var(--solar-color-neutral-600);
+    --solar-color-icon2-action-secondary-disabled: var(--solar-color-neutral-300);
+    --solar-color-icon2-action-secondary-selected: var(--solar-brand-color-primary-700);
+    --solar-color-icon2-action-primary-enabled: var(--solar-color-static-white);
+    --solar-color-icon2-action-primary-hover: var(--solar-color-static-white);
+    --solar-color-icon2-action-primary-active: var(--solar-color-static-white);
+    --solar-color-icon2-action-primary-focused: var(--solar-color-static-white);
+    --solar-color-icon2-action-primary-disabled: var(--solar-color-neutral-100);
+    --solar-color-icon2-action-primary-selected: var(--solar-color-static-white);
+    --solar-color-icon1-action-tertiary-enabled: var(--solar-color-neutral-900);
+    --solar-color-icon1-action-tertiary-hover: var(--solar-color-neutral-900);
+    --solar-color-icon1-action-tertiary-active: var(--solar-color-neutral-900);
+    --solar-color-icon1-action-tertiary-focused: var(--solar-color-neutral-900);
+    --solar-color-icon1-action-tertiary-disabled: var(--solar-color-neutral-300);
+    --solar-color-icon1-action-tertiary-selected: var(--solar-color-neutral-900);
+    --solar-color-icon1-action-secondary-enabled: var(--solar-color-neutral-900);
+    --solar-color-icon1-action-secondary-hover: var(--solar-brand-color-primary-700);
+    --solar-color-icon1-action-secondary-active: var(--solar-color-static-black);
+    --solar-color-icon1-action-secondary-focused: var(--solar-brand-color-primary-700);
+    --solar-color-icon1-action-secondary-disabled: var(--solar-color-neutral-300);
+    --solar-color-icon1-action-secondary-selected: var(--solar-color-neutral-900);
+    --solar-color-icon1-action-quartenary-enabled: var(--solar-color-static-black);
+    --solar-color-icon1-action-quartenary-hover: var(--solar-color-static-black);
+    --solar-color-icon1-action-quartenary-active: var(--solar-color-static-black);
+    --solar-color-icon1-action-quartenary-focused: var(--solar-color-neutral-900);
+    --solar-color-icon1-action-quartenary-disabled: var(--solar-color-neutral-100);
+    --solar-color-icon1-action-quartenary-selected: var(--solar-color-static-black);
+    --solar-color-icon1-action-primary-enabled: var(--solar-brand-color-primary-600);
+    --solar-color-icon1-action-primary-hover: var(--solar-brand-color-primary-700);
+    --solar-color-icon1-action-primary-active: var(--solar-brand-color-primary-700);
+    --solar-color-icon1-action-primary-focused: var(--solar-brand-color-primary-700);
+    --solar-color-icon1-action-primary-disabled: var(--solar-color-neutral-300);
+    --solar-color-icon1-action-primary-selected: var(--solar-brand-color-primary-600);
+    --solar-color-border1-action-secondary-active: var(--solar-color-static-black);
+    --solar-color-border1-action-secondary-focused: var(--solar-color-neutral-600);
+    --solar-color-border1-action-secondary-disabled: var(--solar-color-neutral-300);
+    --solar-color-border1-action-secondary-selected: var(--solar-color-neutral-600);
+    --solar-color-border1-action-secondary-enabled: var(--solar-color-neutral-900);
+    --solar-color-border1-action-secondary-hover: var(--solar-color-neutral-600);
+    --solar-color-border1-action-primary-hover: var(--solar-brand-color-primary-700);
+    --solar-color-border1-action-primary-active: var(--solar-brand-color-primary-700);
+    --solar-color-border1-action-primary-focused: var(--solar-brand-color-primary-700);
+    --solar-color-border1-action-primary-disabled: var(--solar-color-neutral-300);
+    --solar-color-border1-action-primary-selected: var(--solar-brand-color-primary-700);
+    --solar-color-border1-action-primary-enabled: var(--solar-brand-color-primary-600);
+    --solar-color-background2-action-secondary-enabled: var(--solar-color-neutral-900);
+    --solar-color-background2-action-secondary-active: var(--solar-color-static-black);
+    --solar-color-background2-action-secondary-hover: var(--solar-color-static-black);
+    --solar-color-background2-action-secondary-focused: var(--solar-color-static-black);
+    --solar-color-background2-action-secondary-disabled: var(--solar-color-neutral-300);
+    --solar-color-background2-action-secondary-selected: var(--solar-color-static-black);
+    --solar-color-background2-action-primary-selected: var(--solar-brand-color-primary-700);
+    --solar-color-background2-action-primary-hover: var(--solar-brand-color-primary-700);
+    --solar-color-background2-action-primary-enabled: var(--solar-brand-color-primary-600);
+    --solar-color-background2-action-primary-active: var(--solar-brand-color-primary-800);
+    --solar-color-background2-action-primary-focused: var(--solar-brand-color-primary-700);
+    --solar-color-background2-action-primary-disabled: var(--solar-color-neutral-300);
+    --solar-color-background1-action-tertiary-enabled: var(--solar-color-static-white);
+    --solar-color-background1-action-tertiary-hover: var(--solar-color-neutral-50);
+    --solar-color-background1-action-tertiary-active: var(--solar-color-neutral-100);
+    --solar-color-background1-action-tertiary-focused: var(--solar-color-neutral-50);
+    --solar-color-background1-action-tertiary-disabled: var(--solar-color-neutral-200);
+    --solar-color-background1-action-tertiary-selected: var(--solar-color-neutral-50);
+    --solar-color-background1-action-secondary-enabled: var(--solar-color-static-white);
+    --solar-color-background1-action-secondary-hover: var(--solar-color-neutral-50);
+    --solar-color-background1-action-secondary-active: var(--solar-color-neutral-50);
+    --solar-color-background1-action-secondary-focused: var(--solar-color-neutral-50);
+    --solar-color-background1-action-secondary-disabled: var(--solar-color-neutral-300);
+    --solar-color-background1-action-secondary-selected: var(--solar-color-neutral-50);
+    --solar-color-background1-action-quinary-enabled: var(--solar-color-neutral-50);
+    --solar-color-background1-action-quinary-hover: var(--solar-color-neutral-100);
+    --solar-color-background1-action-quinary-active: var(--solar-color-neutral-100);
+    --solar-color-background1-action-quinary-focused: var(--solar-color-neutral-100);
+    --solar-color-background1-action-quinary-disabled: var(--solar-color-neutral-50);
+    --solar-color-background1-action-quinary-selected: var(--solar-color-neutral-200);
+    --solar-color-background1-action-quartenary-hover: var(--solar-color-subscribed-600);
+    --solar-color-background1-action-quartenary-active: var(--solar-color-subscribed-700);
+    --solar-color-background1-action-quartenary-focused: var(--solar-color-subscribed-600);
+    --solar-color-background1-action-quartenary-enabled: var(--solar-color-subscribed-500);
+    --solar-color-background1-action-quartenary-disabled: var(--solar-color-neutral-300);
+    --solar-color-background1-action-quartenary-selected: var(--solar-color-subscribed-600);
+    --solar-color-background1-action-primary-enabled: var(--solar-color-static-white);
+    --solar-color-background1-action-primary-hover: var(--solar-color-neutral-50);
+    --solar-color-background1-action-primary-active: var(--solar-color-neutral-50);
+    --solar-color-background1-action-primary-focused: var(--solar-color-neutral-50);
+    --solar-color-background1-action-primary-disabled: var(--solar-color-neutral-300);
+    --solar-color-background1-action-primary-selected: var(--solar-color-neutral-50);
+    --solar-form-field-clear-dark-alert-icon: var(--solar-color-negative-600);
+    --solar-form-field-clear-dark-alert-text: var(--solar-color-negative-600);
+    --solar-form-field-clear-light-alert-icon: var(--solar-color-negative-600);
+    --solar-form-field-clear-light-alert-text: var(--solar-color-negative-600);
+    --solar-form-field-clear-default-alert-icon: var(--solar-color-negative-600);
+    --solar-form-field-clear-default-alert-text: var(--solar-color-negative-600);
+    --solar-form-field-stroke-dark-alert-icon: var(--solar-color-negative-600);
+    --solar-form-field-stroke-dark-alert-text: var(--solar-color-negative-600);
+    --solar-form-field-stroke-light-alert-icon: var(--solar-color-negative-600);
+    --solar-form-field-stroke-light-alert-text: var(--solar-color-negative-600);
+    --solar-form-field-stroke-default-alert-icon: var(--solar-color-negative-600);
+    --solar-form-field-stroke-default-alert-text: var(--solar-color-negative-600);
+    --solar-form-field-fill-dark-alert-icon: var(--solar-color-negative-600);
+    --solar-form-field-fill-dark-alert-text: var(--solar-color-negative-600);
+    --solar-form-field-fill-light-alert-icon: var(--solar-color-negative-600);
+    --solar-form-field-fill-light-alert-text: var(--solar-color-negative-600);
+    --solar-button-ghost-negative-disabled-fg: var(--solar-color-static-white);
+    --solar-button-ghost-negative-active-fg: var(--solar-color-static-white);
+    --solar-button-ghost-negative-focus-fg: var(--solar-color-static-white);
+    --solar-button-ghost-negative-hover-fg: var(--solar-color-static-white);
+    --solar-button-ghost-negative-default-fg: var(--solar-color-static-white);
+    --solar-button-ghost-dark-disabled-fg: var(--solar-color-static-black);
+    --solar-button-ghost-dark-active-fg: var(--solar-color-static-black);
+    --solar-button-ghost-dark-focus-fg: var(--solar-color-static-black);
+    --solar-button-ghost-dark-hover-fg: var(--solar-color-static-black);
+    --solar-button-ghost-dark-default-fg: var(--solar-color-static-black);
+    --solar-button-secondary-disabled-fg: var(--solar-color-neutral-300);
+    --solar-button-secondary-disabled-bg: var(--solar-color-neutral-200);
+    --solar-button-secondary-active-bg: var(--solar-brand-color-tertiary-700);
+    --solar-button-secondary-focus-bg: var(--solar-brand-color-tertiary-600);
+    --solar-button-secondary-hover-bg: var(--solar-brand-color-tertiary-600);
+    --solar-button-secondary-default-fg: var(--solar-color-static-black);
+    --solar-button-secondary-default-bg: var(--solar-brand-color-tertiary-500);
+    --solar-form-field-clear-dark-disabled-icon: var(--solar-color-icon2-action-primary-enabled);
+    --solar-form-field-clear-dark-disabled-subtext: var(--solar-color-text-quinary);
+    --solar-form-field-clear-dark-disabled-label: var(--solar-color-text-quartenary);
+    --solar-form-field-clear-dark-disabled-text: var(--solar-color-text-quartenary);
+    --solar-form-field-clear-dark-focus-icon: var(--solar-color-icon2-action-primary-enabled);
+    --solar-form-field-clear-dark-focus-subtext: var(--solar-color-text-quinary);
+    --solar-form-field-clear-dark-focus-label: var(--solar-color-text-quartenary);
+    --solar-form-field-clear-dark-focus-text: var(--solar-color-text-quartenary);
+    --solar-form-field-clear-dark-hover-border: var(--solar-color-stroke-divider-primary);
+    --solar-form-field-clear-dark-hover-icon: var(--solar-color-icon2-action-primary-enabled);
+    --solar-form-field-clear-dark-hover-subtext: var(--solar-color-text-quinary);
+    --solar-form-field-clear-dark-hover-label: var(--solar-color-text-quartenary);
+    --solar-form-field-clear-dark-hover-text: var(--solar-color-text-quartenary);
+    --solar-form-field-clear-dark-placeholder-icon: var(--solar-color-icon2-action-primary-enabled);
+    --solar-form-field-clear-dark-placeholder-text: var(--solar-color-text-quartenary);
+    --solar-form-field-clear-dark-default-icon: var(--solar-color-icon2-action-primary-enabled);
+    --solar-form-field-clear-dark-default-subtext: var(--solar-color-text-quinary);
+    --solar-form-field-clear-dark-default-label: var(--solar-color-text-quartenary);
+    --solar-form-field-clear-dark-default-text: var(--solar-color-text-quartenary);
+    --solar-form-field-clear-light-disabled-icon: var(--solar-color-icon-form-focused);
+    --solar-form-field-clear-light-disabled-subtext: var(--solar-color-text-secondary);
+    --solar-form-field-clear-light-disabled-label: var(--solar-color-text-primary);
+    --solar-form-field-clear-light-disabled-text: var(--solar-color-text-primary);
+    --solar-form-field-clear-light-focus-icon: var(--solar-color-icon-form-focused);
+    --solar-form-field-clear-light-focus-subtext: var(--solar-color-text-secondary);
+    --solar-form-field-clear-light-focus-label: var(--solar-color-text-primary);
+    --solar-form-field-clear-light-focus-text: var(--solar-color-text-primary);
+    --solar-form-field-clear-light-hover-border: var(--solar-color-stroke-divider-quartenary);
+    --solar-form-field-clear-light-hover-icon: var(--solar-color-icon-secondary);
+    --solar-form-field-clear-light-hover-text: var(--solar-color-text-primary);
+    --solar-form-field-clear-light-placeholder-icon: var(--solar-color-icon-secondary);
+    --solar-form-field-clear-light-placeholder-subtext: var(--solar-color-text-secondary);
+    --solar-form-field-clear-light-placeholder-label: var(--solar-color-text-primary);
+    --solar-form-field-clear-light-placeholder-text: var(--solar-color-text-primary);
+    --solar-form-field-clear-light-default-icon: var(--solar-color-icon-secondary);
+    --solar-form-field-clear-light-default-subtext: var(--solar-color-text-secondary);
+    --solar-form-field-clear-light-default-label: var(--solar-color-text-primary);
+    --solar-form-field-clear-light-default-text: var(--solar-color-text-primary);
+    --solar-form-field-clear-default-disabled-icon: var(--solar-color-icon-form-disabled);
+    --solar-form-field-clear-default-disabled-subtext: var(--solar-color-text-quinary);
+    --solar-form-field-clear-default-disabled-label: var(--solar-color-text-quinary);
+    --solar-form-field-clear-default-disabled-text: var(--solar-color-text-form-disabled);
+    --solar-form-field-clear-default-focus-icon: var(--solar-color-text-form-hover);
+    --solar-form-field-clear-default-focus-text: var(--solar-color-text-form-hover);
+    --solar-form-field-clear-default-hover-border: var(--solar-color-stroke-divider-primary);
+    --solar-form-field-clear-default-hover-icon: var(--solar-color-text-form-hover);
+    --solar-form-field-clear-default-hover-subtext: var(--solar-color-text-secondary);
+    --solar-form-field-clear-default-hover-label: var(--solar-color-text-secondary);
+    --solar-form-field-clear-default-hover-text: var(--solar-color-text-form-hover);
+    --solar-form-field-clear-default-placeholder-icon: var(--solar-color-icon-form-placeholder);
+    --solar-form-field-clear-default-placeholder-text: var(--solar-color-text-form-placeholder);
+    --solar-form-field-clear-default-default-icon: var(--solar-color-icon-form-enabled);
+    --solar-form-field-clear-default-default-subtext: var(--solar-color-text-secondary);
+    --solar-form-field-clear-default-default-label: var(--solar-color-text-secondary);
+    --solar-form-field-clear-default-default-text: var(--solar-color-text-form-enabled);
+    --solar-form-field-stroke-dark-disabled-border: var(--solar-color-stroke-divider-primary);
+    --solar-form-field-stroke-dark-disabled-icon: var(--solar-color-icon2-action-primary-enabled);
+    --solar-form-field-stroke-dark-disabled-subtext: var(--solar-color-text-quinary);
+    --solar-form-field-stroke-dark-disabled-label: var(--solar-color-text-quartenary);
+    --solar-form-field-stroke-dark-disabled-text: var(--solar-color-text-quartenary);
+    --solar-form-field-stroke-dark-alert-border: var(--solar-color-border-secondary);
+    --solar-form-field-stroke-dark-focus-border: var(--solar-color-stroke-divider-primary);
+    --solar-form-field-stroke-dark-focus-icon: var(--solar-color-icon2-action-primary-enabled);
+    --solar-form-field-stroke-dark-focus-subtext: var(--solar-color-text-quinary);
+    --solar-form-field-stroke-dark-focus-label: var(--solar-color-text-quartenary);
+    --solar-form-field-stroke-dark-focus-text: var(--solar-color-text-quartenary);
+    --solar-form-field-stroke-dark-hover-border: var(--solar-color-stroke-divider-primary);
+    --solar-form-field-stroke-dark-hover-icon: var(--solar-color-icon2-action-primary-enabled);
+    --solar-form-field-stroke-dark-hover-subtext: var(--solar-color-text-quinary);
+    --solar-form-field-stroke-dark-hover-label: var(--solar-color-text-quartenary);
+    --solar-form-field-stroke-dark-hover-text: var(--solar-color-text-quartenary);
+    --solar-form-field-stroke-dark-placeholder-icon: var(--solar-color-icon2-action-primary-enabled);
+    --solar-form-field-stroke-dark-placeholder-text: var(--solar-color-text-quartenary);
+    --solar-form-field-stroke-dark-default-border: var(--solar-color-border-form-enabled);
+    --solar-form-field-stroke-dark-default-icon: var(--solar-color-icon2-action-primary-enabled);
+    --solar-form-field-stroke-dark-default-subtext: var(--solar-color-text-quinary);
+    --solar-form-field-stroke-dark-default-label: var(--solar-color-text-quartenary);
+    --solar-form-field-stroke-dark-default-text: var(--solar-color-text-quartenary);
+    --solar-form-field-stroke-light-disabled-icon: var(--solar-color-icon-secondary);
+    --solar-form-field-stroke-light-disabled-text: var(--solar-color-text-primary);
+    --solar-form-field-stroke-light-alert-border: var(--solar-color-border-form-focused);
+    --solar-form-field-stroke-light-focus-icon: var(--solar-color-icon-secondary);
+    --solar-form-field-stroke-light-hover-icon: var(--solar-color-icon-form-focused);
+    --solar-form-field-stroke-light-placeholder-icon: var(--solar-color-icon-form-placeholder);
+    --solar-form-field-stroke-light-placeholder-text: var(--solar-color-text-primary);
+    --solar-form-field-stroke-light-default-border: var(--solar-color-stroke-divider-quartenary);
+    --solar-form-field-stroke-light-default-icon: var(--solar-color-icon-secondary);
+    --solar-form-field-stroke-light-default-subtext: var(--solar-color-text-secondary);
+    --solar-form-field-stroke-light-default-label: var(--solar-color-text-primary);
+    --solar-form-field-stroke-light-default-text: var(--solar-color-text-primary);
+    --solar-form-field-stroke-default-disabled-border: var(--solar-color-border-form-disabled);
+    --solar-form-field-stroke-default-disabled-icon: var(--solar-color-icon-form-disabled);
+    --solar-form-field-stroke-default-disabled-subtext: var(--solar-color-text-quinary);
+    --solar-form-field-stroke-default-disabled-label: var(--solar-color-text-quinary);
+    --solar-form-field-stroke-default-disabled-text: var(--solar-color-text-form-disabled);
+    --solar-form-field-stroke-default-alert-border: var(--solar-color-text-form-enabled);
+    --solar-form-field-stroke-default-focus-border: var(--solar-color-border-form-focused);
+    --solar-form-field-stroke-default-focus-icon: var(--solar-color-text-form-focused);
+    --solar-form-field-stroke-default-focus-text: var(--solar-color-text-form-focused);
+    --solar-form-field-stroke-default-hover-border: var(--solar-color-border-form-hover);
+    --solar-form-field-stroke-default-hover-icon: var(--solar-color-text-form-hover);
+    --solar-form-field-stroke-default-hover-text: var(--solar-color-text-form-hover);
+    --solar-form-field-stroke-default-placeholder-border: var(--solar-color-border-form-placeholder);
+    --solar-form-field-stroke-default-placeholder-icon: var(--solar-color-icon-form-placeholder);
+    --solar-form-field-stroke-default-placeholder-text: var(--solar-color-text-form-placeholder);
+    --solar-form-field-stroke-default-default-border: var(--solar-color-border-form-enabled);
+    --solar-form-field-stroke-default-default-icon: var(--solar-color-icon-form-enabled);
+    --solar-form-field-stroke-default-default-subtext: var(--solar-color-text-secondary);
+    --solar-form-field-stroke-default-default-label: var(--solar-color-text-secondary);
+    --solar-form-field-stroke-default-default-text: var(--solar-color-text-form-enabled);
+    --solar-form-field-fill-dark-disabled-bg: var(--solar-color-background-form-disabled);
+    --solar-form-field-fill-dark-disabled-icon: var(--solar-color-icon-form-disabled);
+    --solar-form-field-fill-dark-disabled-text: var(--solar-color-text-form-disabled);
+    --solar-form-field-fill-dark-alert-bg: var(--solar-color-background-form-focused);
+    --solar-form-field-fill-dark-focus-bg: var(--solar-color-background-form-focused);
+    --solar-form-field-fill-dark-focus-icon: var(--solar-color-text-form-focused);
+    --solar-form-field-fill-dark-focus-text: var(--solar-color-text-form-focused);
+    --solar-form-field-fill-dark-hover-bg: var(--solar-color-background-form-hover);
+    --solar-form-field-fill-dark-hover-icon: var(--solar-color-text-form-hover);
+    --solar-form-field-fill-dark-hover-text: var(--solar-color-text-form-hover);
+    --solar-form-field-fill-dark-placeholder-icon: var(--solar-color-icon-form-placeholder);
+    --solar-form-field-fill-dark-placeholder-text: var(--solar-color-text-form-placeholder);
+    --solar-form-field-fill-dark-default-bg: var(--solar-color-background-form-enabled);
+    --solar-form-field-fill-dark-default-placeholder: var(--solar-color-text-form-placeholder);
+    --solar-form-field-fill-dark-default-icon: var(--solar-color-icon-form-enabled);
+    --solar-form-field-fill-dark-default-subtext: var(--solar-color-text-quinary);
+    --solar-form-field-fill-dark-default-label: var(--solar-color-text-quartenary);
+    --solar-form-field-fill-dark-default-text: var(--solar-color-text-form-enabled);
+    --solar-form-field-fill-light-disabled-bg: var(--solar-color-background-form-disabled);
+    --solar-form-field-fill-light-disabled-icon: var(--solar-color-icon-form-disabled);
+    --solar-form-field-fill-light-disabled-text: var(--solar-color-text-form-disabled);
+    --solar-form-field-fill-light-alert-bg: var(--solar-color-background-form-focused);
+    --solar-form-field-fill-light-focus-bg: var(--solar-color-background-form-focused);
+    --solar-form-field-fill-light-focus-icon: var(--solar-color-text-form-focused);
+    --solar-form-field-fill-light-focus-text: var(--solar-color-text-form-focused);
+    --solar-form-field-fill-light-hover-bg: var(--solar-color-background-form-hover);
+    --solar-form-field-fill-light-hover-icon: var(--solar-color-icon-form-hover);
+    --solar-form-field-fill-light-hover-text: var(--solar-color-text-form-hover);
+    --solar-form-field-fill-light-placeholder-icon: var(--solar-color-icon-form-placeholder);
+    --solar-form-field-fill-light-placeholder-text: var(--solar-color-text-form-placeholder);
+    --solar-form-field-fill-light-default-bg: var(--solar-color-background-form-enabled);
+    --solar-form-field-fill-light-default-icon: var(--solar-color-icon-form-enabled);
+    --solar-form-field-fill-light-default-subtext: var(--solar-color-text-secondary);
+    --solar-form-field-fill-light-default-label: var(--solar-color-text-primary);
+    --solar-form-field-fill-light-default-text: var(--solar-color-text-form-enabled);
+    --solar-form-field-fill-default-disabled-bg: var(--solar-color-background-form-disabled);
+    --solar-form-field-fill-default-disabled-icon: var(--solar-color-icon-form-disabled);
+    --solar-form-field-fill-default-disabled-subtext: var(--solar-color-text-quinary);
+    --solar-form-field-fill-default-disabled-label: var(--solar-color-text-quinary);
+    --solar-form-field-fill-default-disabled-text: var(--solar-color-text-form-disabled);
+    --solar-form-field-fill-default-focus-bg: var(--solar-color-background-form-focused);
+    --solar-form-field-fill-default-focus-icon: var(--solar-color-text-form-focused);
+    --solar-form-field-fill-default-focus-description: var(--solar-color-text-form-focused);
+    --solar-form-field-fill-default-focus-text: var(--solar-color-text-form-focused);
+    --solar-form-field-fill-default-hover-bg: var(--solar-color-background-form-hover);
+    --solar-form-field-fill-default-hover-icon: var(--solar-color-icon-form-hover);
+    --solar-form-field-fill-default-hover-text: var(--solar-color-text-form-hover);
+    --solar-form-field-fill-default-placeholder-text: var(--solar-color-text-form-placeholder);
+    --solar-form-field-fill-default-default-bg: var(--solar-color-background-form-enabled);
+    --solar-form-field-fill-default-default-icon: var(--solar-color-icon-form-enabled);
+    --solar-form-field-fill-default-default-subtext: var(--solar-color-text-secondary);
+    --solar-form-field-fill-default-default-label: var(--solar-color-text-secondary);
+    --solar-form-field-fill-default-default-text: var(--solar-color-text-form-enabled);
+    --solar-button-list-light-mode-disabled-fg: var(--solar-color-text-secondary);
+    --solar-button-list-light-mode-focus-fg: var(--solar-color-text-secondary);
+    --solar-button-list-light-mode-hover-fg: var(--solar-color-text-secondary);
+    --solar-button-list-light-mode-default-fg: var(--solar-color-text-secondary);
+    --solar-button-list-dark-mode-disabled-fg: var(--solar-color-text-quinary);
+    --solar-button-list-dark-mode-focus-fg: var(--solar-color-text-quinary);
+    --solar-button-list-dark-mode-hover-fg: var(--solar-color-text-quinary);
+    --solar-button-list-dark-mode-default-fg: var(--solar-color-text-quinary);
+    --solar-button-list-dark-disabled-fg: var(--solar-color-text1-action-secondary-disabled);
+    --solar-button-list-dark-focus-fg: var(--solar-color-text1-action-secondary-focused);
+    --solar-button-list-dark-hover-fg: var(--solar-color-text1-action-secondary-hover);
+    --solar-button-list-dark-default-fg: var(--solar-color-text1-action-secondary-enabled);
+    --solar-button-list-primary-disabled-fg: var(--solar-color-text1-action-primary-disabled);
+    --solar-button-list-primary-focus-fg: var(--solar-color-text1-action-primary-focused);
+    --solar-button-list-primary-hover-fg: var(--solar-color-text1-action-primary-hover);
+    --solar-button-list-primary-default-fg: var(--solar-color-text1-action-primary-enabled);
+    --solar-button-ghost-primary-disabled-fg: var(--solar-color-text1-action-primary-disabled);
+    --solar-button-ghost-primary-active-fg: var(--solar-color-text1-action-primary-active);
+    --solar-button-ghost-primary-focus-fg: var(--solar-color-text1-action-primary-focused);
+    --solar-button-ghost-primary-hover-fg: var(--solar-color-text1-action-primary-hover);
+    --solar-button-ghost-primary-default-fg: var(--solar-color-text1-action-primary-enabled);
+    --solar-button-negative-disabled-fg: var(--solar-color-text1-action-tertiary-disabled);
+    --solar-button-negative-disabled-bg: var(--solar-color-background1-action-tertiary-disabled);
+    --solar-button-negative-active-fg: var(--solar-color-text1-action-tertiary-active);
+    --solar-button-negative-active-bg: var(--solar-color-background1-action-tertiary-active);
+    --solar-button-negative-focus-fg: var(--solar-color-text1-action-tertiary-focused);
+    --solar-button-negative-focus-bg: var(--solar-color-background1-action-tertiary-focused);
+    --solar-button-negative-hover-fg: var(--solar-color-text1-action-tertiary-hover);
+    --solar-button-negative-hover-bg: var(--solar-color-background1-action-tertiary-hover);
+    --solar-button-negative-default-fg: var(--solar-color-text1-action-tertiary-enabled);
+    --solar-button-negative-default-bg: var(--solar-color-background1-action-tertiary-enabled);
+    --solar-button-dark-disabled-fg: var(--solar-color-text3-action-secondary-disabled);
+    --solar-button-dark-disabled-bg: var(--solar-color-background2-action-secondary-disabled);
+    --solar-button-dark-active-fg: var(--solar-color-text3-action-secondary-active);
+    --solar-button-dark-active-bg: var(--solar-color-background2-action-secondary-active);
+    --solar-button-dark-focus-fg: var(--solar-color-text3-action-secondary-focused);
+    --solar-button-dark-focus-bg: var(--solar-color-background2-action-secondary-focused);
+    --solar-button-dark-hover-fg: var(--solar-color-text3-action-secondary-hover);
+    --solar-button-dark-hover-bg: var(--solar-color-background2-action-secondary-hover);
+    --solar-button-dark-default-fg: var(--solar-color-text3-action-secondary-enabled);
+    --solar-button-dark-default-bg: var(--solar-color-background2-action-secondary-enabled);
+    --solar-button-primary-disabled-fg: var(--solar-color-text2-action-primary-disabled);
+    --solar-button-primary-disabled-bg: var(--solar-color-background2-action-primary-disabled);
+    --solar-button-primary-active-bg: var(--solar-color-background2-action-primary-active);
+    --solar-button-primary-focus-bg: var(--solar-color-background2-action-primary-focused);
+    --solar-button-primary-hover-bg: var(--solar-color-background2-action-primary-hover);
+    --solar-button-primary-default-fg: var(--solar-color-text2-action-primary-enabled);
+    --solar-button-primary-default-bg: var(--solar-color-background2-action-primary-enabled);
+}
+
+@font-face {
+    font-family: "UOLText";
+    src: url("https://stc.uol.com/c/webfont/projeto-grafico/uol-font/uol-text-lighter.woff2?v5") format("woff2"),url("https://stc.uol.com/c/webfont/projeto-grafico/uol-font/uol-text-lighter.woff?v5") format("woff"),url("https://stc.uol.com/c/webfont/projeto-grafico/uol-font/uol-text-lighter.ttf?v5") format("truetype");
+    font-display: swap;
+    font-weight: 100;
+    font-style: normal
+}
+
+@font-face {
+    font-family: "UOLText";
+    src: url("https://stc.uol.com/c/webfont/projeto-grafico/uol-font/uol-text-light.woff2?v5") format("woff2"),url("https://stc.uol.com/c/webfont/projeto-grafico/uol-font/uol-text-light.woff?v5") format("woff"),url("https://stc.uol.com/c/webfont/projeto-grafico/uol-font/uol-text-light.ttf?v5") format("truetype");
+    font-display: swap;
+    font-weight: 300;
+    font-style: normal
+}
+
+@font-face {
+    font-family: "UOLText";
+    src: url("https://stc.uol.com/c/webfont/projeto-grafico/uol-font/uol-text-regular.woff2?v5") format("woff2"),url("https://stc.uol.com/c/webfont/projeto-grafico/uol-font/uol-text-regular.woff?v5") format("woff"),url("https://stc.uol.com/c/webfont/projeto-grafico/uol-font/uol-text-regular.ttf?v5") format("truetype");
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: "UOLText";
+    src: url("https://stc.uol.com/c/webfont/projeto-grafico/uol-font/uol-text-bold.woff2?v5") format("woff2"),url("https://stc.uol.com/c/webfont/projeto-grafico/uol-font/uol-text-bold.woff?v5") format("woff"),url("https://stc.uol.com/c/webfont/projeto-grafico/uol-font/uol-text-bold.ttf?v5") format("truetype");
+    font-display: swap;
+    font-style: normal;
+    font-weight: 900
+}
+
+@font-face {
+    font-family: "UOLIcons";
+    src: url("//stc.uol.com/c/webfont/projeto-grafico/uol-icones-e-setas/uol-icons-vueland-home.woff?v1") format("woff"),url("//stc.uol.com/c/webfont/projeto-grafico/uol-icones-e-setas/uol-icons-vueland-home.ttf?v1") format("truetype");
+    font-weight: normal;
+    font-style: normal
+}
+
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%
+}
+
+body {
+    margin: 0
+}
+
+main {
+    display: block
+}
+
+h1 {
+    font-size: 2em;
+    margin: .67em 0
+}
+
+hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible
+}
+
+pre {
+    font-family: monospace,monospace;
+    font-size: 1em
+}
+
+a {
+    background-color: rgba(0,0,0,0)
+}
+
+abbr[title] {
+    border-bottom: none;
+    text-decoration: underline;
+    text-decoration: underline dotted
+}
+
+b,strong {
+    font-weight: bolder
+}
+
+code,kbd,samp {
+    font-family: monospace,monospace;
+    font-size: 1em
+}
+
+img {
+    border-style: none
+}
+
+button,input,optgroup,select,textarea {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0
+}
+
+button,input {
+    overflow: visible
+}
+
+button,select {
+    text-transform: none
+}
+
+button,[type=button],[type=reset],[type=submit] {
+    -webkit-appearance: button
+}
+
+button::-moz-focus-inner,[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner {
+    border-style: none;
+    padding: 0
+}
+
+button:-moz-focusring,[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring {
+    outline: 1px dotted ButtonText
+}
+
+
+[type=checkbox],[type=radio] {
+    box-sizing: border-box;
+    padding: 0
+}
+
+[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button {
+    height: auto
+}
+
+[type=search] {
+    -webkit-appearance: textfield;
+    outline-offset: -2px
+}
+
+[type=search]::-webkit-search-decoration {
+    -webkit-appearance: none
+}
+
+::-webkit-file-upload-button {
+    -webkit-appearance: button;
+    font: inherit
+}
+
+details {
+    display: block
+}
+
+/* summary {
+    display: list-item
+}
+
+template {
+    display: none
+} */
+
+[hidden] {
+    display: none
+}
+
+* {
+    box-sizing: border-box
+}
+
+body {
+    background: var(--solar-color-background-primary);
+    color: var(--solar-color-text-primary)
+}
+
+h1,.heading-1,.heading1,h2,.heading-2,.heading2,h3,.heading-3,.heading3,h4,.heading-4,.heading4,h5,.heading-5,.heading5,h6,.heading-6,.heading6 {
+    color: var(--solar-color-heading-primary)
+}
+
+body {
+    font-family: UOLtext,Arial,sans-serif;
+    font-size: 18px
+}
+
+h1,.heading-1,.heading1 {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 32px
+}
+
+p,li,cite,.regular-text,.bold-text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px
+}
+
+.regular-text2,.bold-text2,.bold-text-2,.regular-text-2 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px
+}
+
+.regular-subtext,.bold-subtext {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px
+}
+
+.regular-caption,.bold-caption {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px
+}
+
+.regular-smaller-text,.bold-smaller-text {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 16px
+}
+
+.bold-text-button {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 12px
+}
+
+@media(min-width: 970px) {
+    body {
+        font-size:20px
+    }
+
+    h1,.heading-1,.heading1 {
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 56px
+    }
+
+    p,li,cite,.regular-text,.bold-text {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 32px
+    }
+
+    .regular-text2,.bold-text2,.bold-text-2,.regular-text-2 {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px
+    }
+
+    .regular-subtext,.bold-subtext {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px
+    }
+
+    .regular-caption,.bold-caption {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 16px
+    }
+
+    .regular-smaller-text,.bold-smaller-text {
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 16px
+    }
+
+    .bold-text-button {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 16px
+    }
+}
+
+.bold,.bold-smaller-text,.bold-caption,.bold-subtext,.bold-text2,.bold-text-2,.bold-text,strong {
+    font-weight: 700
+}
+
+.left {
+    text-align: left
+}
+
+.center {
+    text-align: center
+}
+
+.bullet ul {
+    list-style-type: none;
+    padding-left: 0
+}
+
+.bullet ul li {
+    padding-bottom: var(--solar-spacing-100)
+}
+
+.bullet ul li::before {
+    content: "";
+    width: 4px;
+    height: 4px;
+    margin-right: var(--solar-spacing-50);
+    background-color: var(--solar-color-decoration-primary);
+    display: inline-block;
+    margin-bottom: 5px
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(var(--solar-grid-columns, 12), 1fr);
+    gap: var(--solar-grid-gap, 24px)
+}
+
+.grid>* {
+    grid-column: auto/span var(--solar-grid-columns, 12)
+}
+
+.grid>.col1 {
+    grid-column: auto/span 1
+}
+
+.grid>.col2,.grid>.col1-6 {
+    grid-column: auto/span 2
+}
+
+.grid>.col3,.grid>.col1-4 {
+    grid-column: auto/span 3
+}
+
+.grid>.col4,.grid>.col2-6,.grid>.col1-3 {
+    grid-column: auto/span 4
+}
+
+.grid>.col5 {
+    grid-column: auto/span 5
+}
+
+.grid>.col6,.grid>.col3-6,.grid>.col2-4,.grid>.col1-2 {
+    grid-column: auto/span 6
+}
+
+.grid>.col7 {
+    grid-column: auto/span 7
+}
+
+.grid>.col8,.grid>.col4-6,.grid>.col2-3 {
+    grid-column: auto/span 8
+}
+
+.grid>.col9,.grid>.col3-4 {
+    grid-column: auto/span 9
+}
+
+.grid>.col10,.grid>.col5-6 {
+    grid-column: auto/span 10
+}
+
+.grid>.col11 {
+    grid-column: auto/span 11
+}
+
+.grid>.col12,.grid>.col-full {
+    grid-column: auto/span 12
+}
+
+@media(min-width: 970px) {
+    .grid>.col-lg-1 {
+        grid-column:auto/span 1
+    }
+
+    .grid>.col-lg-2,.grid>.col-lg-1-6 {
+        grid-column: auto/span 2
+    }
+
+    .grid>.col-lg-3,.grid>.col-lg-1-4 {
+        grid-column: auto/span 3
+    }
+
+    .grid>.col-lg-4,.grid>.col-lg-2-6,.grid>.col-lg-1-3 {
+        grid-column: auto/span 4
+    }
+
+    .grid>.col-lg-5 {
+        grid-column: auto/span 5
+    }
+
+    .grid>.col-lg-6,.grid>.col-lg-3-6,.grid>.col-lg-2-4,.grid>.col-lg-1-2 {
+        grid-column: auto/span 6
+    }
+
+    .grid>.col-lg-7 {
+        grid-column: auto/span 7
+    }
+
+    .grid>.col-lg-8,.grid>.col-lg-4-6,.grid>.col-lg-2-3 {
+        grid-column: auto/span 8
+    }
+
+    .grid>.col-lg-9,.grid>.col-lg-3-4 {
+        grid-column: auto/span 9
+    }
+
+    .grid>.col-lg-10,.grid>.col-lg-5-6 {
+        grid-column: auto/span 10
+    }
+
+    .grid>.col-lg-11 {
+        grid-column: auto/span 11
+    }
+
+    .grid>.col-lg-12,.grid>.col-lg-full {
+        grid-column: auto/span 12
+    }
+}
+
+@media(min-width: 970px) {
+    .grid>.row-lg-2 {
+        grid-row:auto/span 2
+    }
+}
+
+.container,.body-container {
+    max-width: 100%;
+    margin: 0 16px
+}
+
+@media screen and (min-width: 1336px) {
+    .container {
+        margin:0 auto;
+        max-width: 1304px
+    }
+}
+
+@media(min-width: 970px) {
+    .body-container {
+        margin: 0 auto;
+        max-width: 640px
+    }
+}
+
+
+a:not(.no-link) {
+    padding-bottom: 1px;
+    text-decoration: none;
+    color: var(--solar-color-links-enabled);
+    border-bottom: 2px solid var(--solar-color-links-enabled)
+}
+
+a:not(.no-link):hover {
+    color: var(--solar-color-links-hover);
+    border-color: var(--solar-color-links-hover)
+}
+
+a:not(.no-link):active {
+    color: var(--solar-color-links-active);
+    border-color: var(--solar-color-links-active)
+}
+
+.p-100 {
+    padding: var(--solar-spacing-100)
+}
+
+.mt-100 {
+    margin-top: var(--solar-spacing-100)
+}
+
+.my-150 {
+    margin-top: var(--solar-spacing-150);
+    margin-bottom: var(--solar-spacing-150)
+}
+
+.my-250 {
+    margin-top: var(--solar-spacing-250);
+    margin-bottom: var(--solar-spacing-250)
+}
+
+.mt-0 {
+    margin-top: 0
+}
+
+@media(max-width: 969px) {
+    .mt-100-xs {
+        margin-top: var(--solar-spacing-100)
+    }
+
+    .mt-250-xs {
+        margin-top: var(--solar-spacing-250)
+    }
+}
+
+@media(min-width: 970px) {
+   
+    .mt-100-lg {
+        margin-top: var(--solar-spacing-100)
+    }
+
+
+    .mt-150-lg {
+        margin-top: var(--solar-spacing-150)
+    }
+
+    .mt-400-lg {
+        margin-top: var(--solar-spacing-400)
+    }
+
+}
+
+@keyframes skeleton {
+    0% {
+        background-position: -100px
+    }
+
+    40%,100% {
+        background-position: 200px
+    }
+}
