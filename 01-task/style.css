@@ -26,26 +26,6 @@
     --fg: var(--solar-button-primary-disabled-fg)
 }
 
-/* .tm-primary.ghost[data-v-c31801e7],.tm-primary.ghost.is-default[data-v-c31801e7] {
-    --fg: var(--solar-button-ghost-primary-default-fg)
-}
-
-.tm-primary.ghost[data-v-c31801e7]:hover,.tm-primary.ghost.is-hover[data-v-c31801e7] {
-    --fg: var(--solar-button-ghost-primary-hover-fg)
-}
-
-.tm-primary.ghost[data-v-c31801e7]:focus,.tm-primary.ghost.is-focus[data-v-c31801e7] {
-    --fg: var(--solar-button-ghost-primary-focus-fg)
-}
-
-.tm-primary.ghost[data-v-c31801e7]:active,.tm-primary.ghost.is-active[data-v-c31801e7] {
-    --fg: var(--solar-button-ghost-primary-active-fg)
-}
-
-.tm-primary.ghost[data-v-c31801e7]:disabled,.tm-primary.ghost.is-disabled[data-v-c31801e7] {
-    --fg: var(--solar-button-ghost-primary-disabled-fg)
-} */
-
 .tm-primary.list[data-v-c31801e7],.tm-primary.list.is-default[data-v-c31801e7] {
     --fg: var(--solar-button-list-primary-default-fg)
 }
@@ -109,7 +89,7 @@
     --fg: var(--solar-button-dark-disabled-fg)
 }
 
-.tm-dark.ghost[data-v-c31801e7],.tm-dark.ghost.is-default[data-v-c31801e7] {
+/* .tm-dark.ghost[data-v-c31801e7],.tm-dark.ghost.is-default[data-v-c31801e7] {
     --fg: var(--solar-button-ghost-dark-default-fg)
 }
 
@@ -127,7 +107,7 @@
 
 .tm-dark.ghost[data-v-c31801e7]:disabled,.tm-dark.ghost.is-disabled[data-v-c31801e7] {
     --fg: var(--solar-button-ghost-dark-disabled-fg)
-}
+} */
 
 .tm-dark.list[data-v-c31801e7],.tm-dark.list.is-default[data-v-c31801e7] {
     --fg: var(--solar-button-list-dark-default-fg)
@@ -167,14 +147,14 @@
     display: none
 }
 
-.solar-button-logo[data-v-c31801e7] {
+/* .solar-button-logo[data-v-c31801e7] {
     height: 100%
-}
+} */
 
-.solar-button.is-block[data-v-c31801e7] {
+/* .solar-button.is-block[data-v-c31801e7] {
     width: 100%;
     display: flex
-}
+} */
 
 .solar-button[data-v-c31801e7]:hover {
     cursor: pointer
@@ -188,10 +168,10 @@
     opacity: .25
 }
 
-.solar-button.ghost[data-v-c31801e7] {
+/* .solar-button.ghost[data-v-c31801e7] {
     border: 1px solid var(--fg);
     background: transparent
-}
+} */
 
 .solar-button.rounded[data-v-c31801e7] {
     border-radius: var(--solar-border-radius-200);
@@ -2108,7 +2088,7 @@ body .fixed-mobile-area {
     --solar-form-field-fill-dark-alert-text: var(--solar-color-negative-600);
     --solar-form-field-fill-light-alert-icon: var(--solar-color-negative-600);
     --solar-form-field-fill-light-alert-text: var(--solar-color-negative-600);
-    --solar-button-ghost-negative-disabled-fg: var(--solar-color-static-white);
+    /* --solar-button-ghost-negative-disabled-fg: var(--solar-color-static-white);
     --solar-button-ghost-negative-active-fg: var(--solar-color-static-white);
     --solar-button-ghost-negative-focus-fg: var(--solar-color-static-white);
     --solar-button-ghost-negative-hover-fg: var(--solar-color-static-white);
@@ -2117,7 +2097,7 @@ body .fixed-mobile-area {
     --solar-button-ghost-dark-active-fg: var(--solar-color-static-black);
     --solar-button-ghost-dark-focus-fg: var(--solar-color-static-black);
     --solar-button-ghost-dark-hover-fg: var(--solar-color-static-black);
-    --solar-button-ghost-dark-default-fg: var(--solar-color-static-black);
+    --solar-button-ghost-dark-default-fg: var(--solar-color-static-black); */
     --solar-button-secondary-disabled-fg: var(--solar-color-neutral-300);
     --solar-button-secondary-disabled-bg: var(--solar-color-neutral-200);
     --solar-button-secondary-active-bg: var(--solar-brand-color-tertiary-700);
@@ -2304,11 +2284,11 @@ body .fixed-mobile-area {
     --solar-button-list-primary-focus-fg: var(--solar-color-text1-action-primary-focused);
     --solar-button-list-primary-hover-fg: var(--solar-color-text1-action-primary-hover);
     --solar-button-list-primary-default-fg: var(--solar-color-text1-action-primary-enabled);
-    --solar-button-ghost-primary-disabled-fg: var(--solar-color-text1-action-primary-disabled);
+    /* --solar-button-ghost-primary-disabled-fg: var(--solar-color-text1-action-primary-disabled);
     --solar-button-ghost-primary-active-fg: var(--solar-color-text1-action-primary-active);
     --solar-button-ghost-primary-focus-fg: var(--solar-color-text1-action-primary-focused);
     --solar-button-ghost-primary-hover-fg: var(--solar-color-text1-action-primary-hover);
-    --solar-button-ghost-primary-default-fg: var(--solar-color-text1-action-primary-enabled);
+    --solar-button-ghost-primary-default-fg: var(--solar-color-text1-action-primary-enabled); */
     --solar-button-negative-disabled-fg: var(--solar-color-text1-action-tertiary-disabled);
     --solar-button-negative-disabled-bg: var(--solar-color-background1-action-tertiary-disabled);
     --solar-button-negative-active-fg: var(--solar-color-text1-action-tertiary-active);
@@ -2337,10 +2317,10 @@ body .fixed-mobile-area {
     --solar-button-primary-default-fg: var(--solar-color-text2-action-primary-enabled);
     --solar-button-primary-default-bg: var(--solar-color-background2-action-primary-enabled);
 }
-
+/* 
 @font-face {
     font-family: "UOLText";
-    src: url("https://stc.uol.com/c/webfont/projeto-grafico/uol-font/uol-text-lighter.woff2?v5") format("woff2"),url("https://stc.uol.com/c/webfont/projeto-grafico/uol-font/uol-text-lighter.woff?v5") format("woff"),url("https://stc.uol.com/c/webfont/projeto-grafico/uol-font/uol-text-lighter.ttf?v5") format("truetype");
+    src: url("fonts/uol-text-lighter.woff2") format("woff2"),url("fonts/uol-text-lighter.woff") format("woff"),url("fonts/uol-text-lighter.ttf") format("truetype");
     font-display: swap;
     font-weight: 100;
     font-style: normal
@@ -2348,15 +2328,15 @@ body .fixed-mobile-area {
 
 @font-face {
     font-family: "UOLText";
-    src: url("https://stc.uol.com/c/webfont/projeto-grafico/uol-font/uol-text-light.woff2?v5") format("woff2"),url("https://stc.uol.com/c/webfont/projeto-grafico/uol-font/uol-text-light.woff?v5") format("woff"),url("https://stc.uol.com/c/webfont/projeto-grafico/uol-font/uol-text-light.ttf?v5") format("truetype");
+    src: url("fonts/uol-text-light.woff2") format("woff2"),url("fonts/uol-text-light.woff") format("woff"),url("fonts/uol-text-light.ttf") format("truetype");
     font-display: swap;
     font-weight: 300;
-    font-style: normal
-}
+    font-style: normal */
+/* } */
 
 @font-face {
     font-family: "UOLText";
-    src: url("https://stc.uol.com/c/webfont/projeto-grafico/uol-font/uol-text-regular.woff2?v5") format("woff2"),url("https://stc.uol.com/c/webfont/projeto-grafico/uol-font/uol-text-regular.woff?v5") format("woff"),url("https://stc.uol.com/c/webfont/projeto-grafico/uol-font/uol-text-regular.ttf?v5") format("truetype");
+    src: url("fonts/uol-text-regular.woff2") format("woff2"),url("fonts/uol-text-regular.woff") format("woff"),url("fonts/uol-text-regular.ttf") format("truetype");
     font-display: swap;
     font-weight: 400;
     font-style: normal
@@ -2364,18 +2344,18 @@ body .fixed-mobile-area {
 
 @font-face {
     font-family: "UOLText";
-    src: url("https://stc.uol.com/c/webfont/projeto-grafico/uol-font/uol-text-bold.woff2?v5") format("woff2"),url("https://stc.uol.com/c/webfont/projeto-grafico/uol-font/uol-text-bold.woff?v5") format("woff"),url("https://stc.uol.com/c/webfont/projeto-grafico/uol-font/uol-text-bold.ttf?v5") format("truetype");
+    src: url("fonts/uol-text-bold.woff2") format("woff2"),url("fonts/uol-text-bold.woff") format("woff"),url("fonts/uol-text-bold.ttf") format("truetype");
     font-display: swap;
     font-style: normal;
     font-weight: 900
 }
 
-@font-face {
+/* @font-face {
     font-family: "UOLIcons";
     src: url("//stc.uol.com/c/webfont/projeto-grafico/uol-icones-e-setas/uol-icons-vueland-home.woff?v1") format("woff"),url("//stc.uol.com/c/webfont/projeto-grafico/uol-icones-e-setas/uol-icons-vueland-home.ttf?v1") format("truetype");
     font-weight: normal;
     font-style: normal
-}
+} */
 
 html {
     line-height: 1.15;
