@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "UOLText";
+    src: url("fonts/uol-text-regular.woff2") format("woff2"), url("fonts/uol-text-regular.woff") format("woff"), url("fonts/uol-text-regular.ttf") format("truetype");
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: "UOLText";
+    src: url("fonts/uol-text-bold.woff2") format("woff2"), url("fonts/uol-text-bold.woff") format("woff"), url("fonts/uol-text-bold.ttf") format("truetype");
+    font-display: swap;
+    font-style: normal;
+    font-weight: 900
+}

@@ -1,3 +1,5 @@
+@import '_variables.css';
+
 .solar-footer[data-v-1821df6a] {
     position: relative;
     background-color: var(--solar-color-background-primary);

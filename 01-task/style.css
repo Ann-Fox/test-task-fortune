@@ -1,5 +1,5 @@
 @import '_variables.css';
-
+@import 'fonts.css';
 .solar-list[data-v-f6f1db1a] {
     display: flex;
     flex-flow: row wrap;
@@ -387,7 +387,7 @@
     fill: var(--color)
 }
 
-.uolpd-video-inarticle[data-v-9112c28d] {
+/* .uolpd-video-inarticle[data-v-9112c28d] {
     clear: both;
     height: 290px
 }
@@ -396,15 +396,15 @@
     .uolpd-video-inarticle[data-v-9112c28d] {
         height: 392px
     }
-}
+} */
 
-.uolpd-video-inarticle[data-v-9112c28d] div[id=inarticle-ad-container] {
+/* .uolpd-video-inarticle[data-v-9112c28d] div[id=inarticle-ad-container] {
     background-color: var(--solar-color-neutral-50)
 }
 
 .uolpd-video-inarticle[data-v-9112c28d] div[id=inarticle-ad-header] {
     font-family: var(--solar-typography-desktop-regular-text-font-family)
-}
+} */
 
 .BlFWcnNo {
     border-bottom: 1px solid var(--solar-color-neutral-100)
@@ -729,7 +729,7 @@ body.in-app .vl-wrapper {
     font-style: normal */
 /* } */
 
-@font-face {
+/* @font-face {
     font-family: "UOLText";
     src: url("fonts/uol-text-regular.woff2") format("woff2"), url("fonts/uol-text-regular.woff") format("woff"), url("fonts/uol-text-regular.ttf") format("truetype");
     font-display: swap;
@@ -743,7 +743,7 @@ body.in-app .vl-wrapper {
     font-display: swap;
     font-style: normal;
     font-weight: 900
-}
+} */
 
 /* @font-face {
     font-family: "UOLIcons";

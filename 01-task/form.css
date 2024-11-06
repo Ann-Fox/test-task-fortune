@@ -1,0 +1,50 @@
+@import '_variables.css';
+@import 'fonts.css';
+
+.uolpd-video-inarticle[data-v-9112c28d] {
+   display: flex; flex-direction: column;
+    clear: both;
+    height: 290px;
+    /* font-family: UOLText; */
+    tab-size: 16px;
+    gap: 20px;
+}
+/* 
+@media (min-width: 970px) {
+    .uolpd-video-inarticle[data-v-9112c28d] {
+        height: 392px
+    }
+}
+
+.uolpd-video-inarticle[data-v-9112c28d] div[id=inarticle-ad-container] {
+    background-color: var(--solar-color-neutral-50)
+}
+
+/* .uolpd-video-inarticle[data-v-9112c28d] div[id=inarticle-ad-header] {
+    font-family: var(--solar-typography-desktop-regular-text-font-family)
+} */
+
+div[id=inarticle-ad-header] {
+    height: 20px;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1.53px;
+    width: 100%;
+
+    font-family: UOLtext, Arial, sans-serif;
+} 
+
+#banner-480x360-area {
+    display:flex !important; justify-content: center; height: 100% !important; max-width: 100%; width: 100%;
+}
+
+
+form {
+    background: var(--solar-button-secondary-default-bg);
+    padding: 40px;
+    max-width:600px;
+    margin:40px auto;
+    border-radius: var(--solar-border-radius-50);
+  }
