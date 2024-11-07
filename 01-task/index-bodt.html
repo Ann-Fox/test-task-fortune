@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="form.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 
 <body data-anchorads="true" style="--header-height: 57px;">
@@ -173,47 +174,48 @@
                                                             <div id="banner-480x360-area"
                                                                 >
                                                                 <div id="inarticle-ad-container">
-                                                                    <form action="/" method="post">
+                                                                    <div class="form">
+                                                                        <form action="/" method="post">
 
-                                                                        <div class="top-row">
+                                                                            <div class="top-row">
+                                                                                <div class="field-wrap">
+                                                                                    <label>
+                                                                                        Nome<span class="req">*</span>
+                                                                                    </label>
+                                                                                    <input type="text" required
+                                                                                        autocomplete="off" />
+                                                                                </div>
+        
+                                                                                <div class="field-wrap">
+                                                                                    <label>
+                                                                                        Sobrenome<span class="req">*</span>
+                                                                                    </label>
+                                                                                    <input type="text" required
+                                                                                        autocomplete="off" />
+                                                                                </div>
+                                                                            </div>
+        
                                                                             <div class="field-wrap">
                                                                                 <label>
-                                                                                    Nome<span class="req">*</span>
+                                                                                    Email<span class="req">*</span>
                                                                                 </label>
-                                                                                <input type="text" required
+                                                                                <input type="email" required
                                                                                     autocomplete="off" />
                                                                             </div>
-    
+        
                                                                             <div class="field-wrap">
                                                                                 <label>
-                                                                                    Sobrenome<span class="req">*</span>
+                                                                                    Telefone<span class="req">*</span>
                                                                                 </label>
-                                                                                <input type="text" required
-                                                                                    autocomplete="off" />
+                                                                                <input type="tel" id="phone" name="phone"
+                                                                                 required autocomplete="off" />
                                                                             </div>
-                                                                        </div>
-    
-                                                                        <div class="field-wrap">
-                                                                            <label>
-                                                                                Email<span class="req">*</span>
-                                                                            </label>
-                                                                            <input type="email" required
-                                                                                autocomplete="off" />
-                                                                        </div>
-    
-                                                                        <div class="field-wrap">
-                                                                            <label>
-                                                                                Telefone<span class="req">*</span>
-                                                                            </label>
-                                                                            <input type="tel" id="phone" name="phone"
-                                                                                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
-                                                                                required autocomplete="off" />
-                                                                        </div>
-    
-                                                                        <button type="submit"
-                                                                            class="button button-block" />começar</button>
-    
-                                                                    </form>
+        
+                                                                            <button type="submit"
+                                                                                class="button button-block" />começar</button>
+        
+                                                                        </form>
+                                                                    </div>
                                                                 </div>
                                                                
                                                             </div>
@@ -566,6 +568,7 @@
         </svg></div>
     <link href="solar-footer.css" v-style-load-after="solar-footer" rel="stylesheet">
     <link href="form.css" v-style-load-after="solar-footer" rel="stylesheet">
+    <script src="form.js"></script>
 </body>
 
 </html>
