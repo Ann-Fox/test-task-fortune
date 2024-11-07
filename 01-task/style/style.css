@@ -56,54 +56,11 @@
     margin-bottom: var(--solar-spacing-100)
 }
 
-/* @media (min-width: 970px) {
-    .central-column[data-v-5442f4c2] {
-        min-width:640px
-    }
-
-    .article-footer-action[data-v-5442f4c2] {
-        clear: both;
-        display: flex;
-        align-items: center;
-        justify-content: space-between
-    }
-
-    .col-custom[data-v-5442f4c2] {
-        max-width: 240px
-    }
-
-    *[data-v-5442f4c2] {
-        --featured-image-square-mw: 308px;
-        --featured-image-vertical-mw: 308px
-    }
-
-    [data-v-5442f4c2] .featured-embed .embed-right.embed-square {
-        max-width: var(--featured-image-square-mw)
-    }
-
-    [data-v-5442f4c2] .featured-embed .embed-right.embed-vertical {
-        max-width: var(--featured-image-vertical-mw)
-    }
-
-    .featured-image-right[data-v-5442f4c2] {
-        margin: 0 0 var(--solar-spacing-200) var(--solar-spacing-200)
-    }
-
-    .featured-image-square[data-v-5442f4c2] {
-        max-width: var(--featured-image-square-mw)
-    }
-
-    .featured-image-vertical[data-v-5442f4c2] {
-        max-width: var(--featured-image-vertical-mw)
-    }
-} */
-
 .solar-icon[data-v-3112d719] {
     display: inline-flex;
     width: var(--icon-size);
     height: var(--icon-size)
 }
-
 
 .featured-image-square[data-v-5442f4c2], .featured-image-vertical[data-v-5442f4c2] {
     max-width: 150px;
@@ -114,9 +71,6 @@
 }
 .solar-photo-content[data-v-15044903] {
     position: relative;
-    /* margin-top: 0;
-    margin-left: 0;
-    margin-right: 0; */
 }
 .tm-primary[data-v-c31801e7], .tm-primary.is-default[data-v-c31801e7] {
     --bg: var(--solar-button-primary-default-bg);
@@ -236,10 +190,6 @@
     position: relative;
     --gap: var(--solar-spacing-25)
 }
-
-/* .solar-button[data-v-c31801e7]:not(.show-skeleton):after {
-    display: none
-} */
 
 .solar-button[data-v-c31801e7]:hover {
     cursor: pointer
@@ -386,25 +336,6 @@
     height: inherit;
     fill: var(--color)
 }
-
-/* .uolpd-video-inarticle[data-v-9112c28d] {
-    clear: both;
-    height: 290px
-}
-
-@media (min-width: 970px) {
-    .uolpd-video-inarticle[data-v-9112c28d] {
-        height: 392px
-    }
-} */
-
-/* .uolpd-video-inarticle[data-v-9112c28d] div[id=inarticle-ad-container] {
-    background-color: var(--solar-color-neutral-50)
-}
-
-.uolpd-video-inarticle[data-v-9112c28d] div[id=inarticle-ad-header] {
-    font-family: var(--solar-typography-desktop-regular-text-font-family)
-} */
 
 .BlFWcnNo {
     border-bottom: 1px solid var(--solar-color-neutral-100)
@@ -653,7 +584,6 @@ display: flex;
     }
 }
 
-
 .solar-footer .footer .phone[data-v-1821df6a] {
     display: flex;
     flex-direction: column;
@@ -711,46 +641,6 @@ body .row {
 body.in-app .vl-wrapper {
     padding-top: var(--main-pt)
 }
-
-/* 
-@font-face {
-    font-family: "UOLText";
-    src: url("fonts/uol-text-lighter.woff2") format("woff2"),url("fonts/uol-text-lighter.woff") format("woff"),url("fonts/uol-text-lighter.ttf") format("truetype");
-    font-display: swap;
-    font-weight: 100;
-    font-style: normal
-}
-
-@font-face {
-    font-family: "UOLText";
-    src: url("fonts/uol-text-light.woff2") format("woff2"),url("fonts/uol-text-light.woff") format("woff"),url("fonts/uol-text-light.ttf") format("truetype");
-    font-display: swap;
-    font-weight: 300;
-    font-style: normal */
-/* } */
-
-/* @font-face {
-    font-family: "UOLText";
-    src: url("fonts/uol-text-regular.woff2") format("woff2"), url("fonts/uol-text-regular.woff") format("woff"), url("fonts/uol-text-regular.ttf") format("truetype");
-    font-display: swap;
-    font-weight: 400;
-    font-style: normal
-}
-
-@font-face {
-    font-family: "UOLText";
-    src: url("fonts/uol-text-bold.woff2") format("woff2"), url("fonts/uol-text-bold.woff") format("woff"), url("fonts/uol-text-bold.ttf") format("truetype");
-    font-display: swap;
-    font-style: normal;
-    font-weight: 900
-} */
-
-/* @font-face {
-    font-family: "UOLIcons";
-    src: url("//stc.uol.com/c/webfont/projeto-grafico/uol-icones-e-setas/uol-icons-vueland-home.woff?v1") format("woff"),url("//stc.uol.com/c/webfont/projeto-grafico/uol-icones-e-setas/uol-icons-vueland-home.ttf?v1") format("truetype");
-    font-weight: normal;
-    font-style: normal
-} */
 
 html {
     line-height: 1.15;
@@ -866,6 +756,7 @@ p, li, cite, .regular-text, .bold-text {
     font-weight: 400;
     line-height: 24px;
 }
+
 @media(min-width: 970px) {
     body {
         font-size: 20px
