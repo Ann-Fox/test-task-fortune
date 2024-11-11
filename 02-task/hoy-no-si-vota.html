@@ -24,6 +24,7 @@
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="#ed1b24" />
     <link rel="stylesheet" href="css/components/main.css">
+    <link rel="stylesheet" href="css/components/form.css">
 </head>
 
 <body ng-app='crhoy' oncopy='return false' oncut='return false'>
@@ -891,12 +892,11 @@
             <br>
         </header>
         <!--Facebook SDK-->
-        <div id="fb-root"></div>
+        <!-- <div id="fb-root"></div> -->
         <div id="" class="" style="background-color: {{especial.fondo1}}">
             <section class="main-content content-nota container predeterminada">
-                <div class="clear"></div>
-                <div class="row seccion-principal" id='seccionPrincipal'></div>
-                <!-- POST SIN ESPECIAL -->
+                <!-- <div class="clear"></div>
+                <div class="row seccion-principal" id='seccionPrincipal'></div> -->
                 <div class="row seccion-principal" id='seccionPrincipal'>
                     <article class="content text-justify col-lg-9 col-md-9 col-sm-12 col-12">
                         <div id="encabezadoNota">
@@ -904,9 +904,8 @@
                                 completo de Sala IV </h1>
                         </div>
                         <div id="contenido" class="contenido">
-                            <!-- INICIA  | 11 | FIN  -->
                             <div>
-                                <p></p>
+                                <!-- <p></p> -->
                                 <div id="attachment_2479994" style="width: 1610px" class="wp-caption aligncenter">
                                     <a href="img/main/diputados-plenario-junio.jpeg">
                                         <img class="wp-image-2479994 size-full"
@@ -925,7 +924,47 @@
                                     Presidencial.
                                 </p>
                             </div>
-                            <div class="clear"></div>
+                            <!-- <div class="clear"> -->
+                                <div class="container bg-form">
+                                    <div class="textHead">
+                                       Contact us Form
+                                    </div>
+                                    <form action="#">
+                                       <div class="form-row">
+                                          <div class="input-data">
+                                             <input type="text" required>
+                                             <div class="underline"></div>
+                                             <label for="">Nombre
+                                                </label>
+                                          </div>
+                                          <div class="input-data">
+                                             <input type="text" required>
+                                             <div class="underline"></div>
+                                             <label for="">Apellido</label>
+                                          </div>
+                                       </div>
+                                       <div class="form-row">
+                                          <div class="input-data">
+                                             <input type="text" required>
+                                             <div class="underline"></div>
+                                             <label for="">Email</label>
+                                          </div>
+                                          <div class="input-data">
+                                             <input type="text" required>
+                                             <div class="underline"></div>
+                                             <label for="">Teléfono</label>
+                                          </div>
+                                       </div>
+                                       <div class="form-row">
+                                          <div class="form-row submit-btn">
+                                             <div class="input-data">
+                                                <div class="inner"></div>
+                                                <input type="submit" value="submit">
+                                             </div>
+                                          </div>
+                                    </form>
+                                    </div>
+                            <!-- </div> -->
                         </div>
                     </article>
                     <!-- Últimas | Más leídas -->
